@@ -11,7 +11,7 @@
   // 1) Wczytaj pełny bank pytań (JSON leży w tym samym folderze co ten plik JS)
   let pool = null;
   try{
-    const res = await fetch('boj-questions.json', { cache: 'no-store' });
+    const res = await fetch('exam/boj-questions.json', { cache: 'no-store' });
     if(!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
     pool = await res.json();
     if(!Array.isArray(pool) || !pool.length) throw new Error('Plik JSON nie zawiera listy pytań.');

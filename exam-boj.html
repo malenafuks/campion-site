@@ -1,1 +1,17 @@
+<script>
+(async function () {
+  const el = document.getElementById('exam-widget');
+
+  // 1) pełna pula z repo
+  const QUESTIONS_URL = './boj-questions.json';
+  const pool = await fetch(QUESTIONS_URL).then(r => r.json());
+
+  // 2) losujemy zawsze 10 na sesję
+  const quiz = shuffle(pool).slice(0, 10);
+
+  // 3) dalej Twój renderer (checkboxy, bramka e-mail, wynik)
+  //    Jeśli korzystasz z mojego wcześniejszego kodu, nic więcej nie zmieniasz.
+  function shuffle(a){ return [...a].sort(()=>Math.random()-.5); }
+})();
+</script>
 

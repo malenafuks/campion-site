@@ -2,10 +2,9 @@ name: Build BOJ Questions
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/build-questions.yml
-      - scripts/parse_boj.py
+
+permissions:
+  contents: write   # ← pozwól workflowowi zapisywać do repo
 
 jobs:
   build:
@@ -13,6 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0      # ← bez płytkiego klonu (push działa pewniej)
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -30,10 +31,8 @@ jobs:
             --pdf "https://pzj.pl/wp-content/uploads/2020/08/Pytania_Odznaka_Br%C4%85zowa.pdf" \
             --out "exam/boj-questions.json"
 
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
+      - name: Commit JSON
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          add: "exam/boj-questions.json"
-          message: "chore: build exam/boj-questions.json from official PZJ PDF"
-          default_author: github_actions
-
+          commit_message: "build: update exam/boj-questions.json (via GH Actions)"
+          file_pattern: exam/boj-questions.json

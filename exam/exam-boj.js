@@ -1,7 +1,7 @@
 (function () {
-  const url = (window && window.BOJ_QUESTIONS_URL) || "exam/boj-questions.json";
+  const url = "exam/boj-questions.json";
 
-  /** Fisher–Yates */
+  /** Fisher–Yates shuffle */
   function shuffle(arr) {
     const a = arr.slice();
     for (let i = a.length - 1; i > 0; i--) {
@@ -15,90 +15,111 @@
     const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) throw new Error("Nie udało się pobrać pytań.");
     const data = await res.json();
-    // mieszamy ODPOWIEDZI dla każdego pytania (kolejność pytań — bez zmian)
     return data.map(q => ({ ...q, answers: shuffle(q.answers) }));
   }
 
-  const dom = {
-    card: document.getElementById("card"),
-    next: document.getElementById("nextBtn"),
-    progress: document.getElementById("progressBar"),
-    resultTpl: document.getElementById("resultTpl")
-  };
+  const quizApp = document.createElement("div");
+  quizApp.className = "quiz-app";
+  document.body.appendChild(quizApp);
 
   let questions = [];
   let idx = 0;
   let score = 0;
-  let selectedIndex = null;
+  let selected = null;
 
   function renderQuestion() {
     const q = questions[idx];
-    dom.card.innerHTML = `
-      <p class="q">${q.question}</p>
-      <div class="answers" role="radiogroup" aria-label="odpowiedzi">
-        ${q.answers
-          .map((a, i) => `
-            <div class="answer">
-              <input type="radio" name="ans" id="ans-${i}" value="${i}" />
-              <label for="ans-${i}">${a.text}</label>
-            </div>
-          `).join("")}
+
+    quizApp.innerHTML = `
+      <div class="quiz-card">
+        <div class="quiz-progress">
+          <div class="bar"><span style="width:${(idx / questions.length) * 100}%"></span></div>
+          <div class="step">${idx + 1}/${questions.length}</div>
+        </div>
+        <h2 class="quiz-question">${q.question}</h2>
+        <ul class="quiz-answers">
+          ${q.answers
+            .map((a, i) => `
+              <li class="quiz-answer" data-idx="${i}">
+                ${a.text}
+              </li>`).join("")}
+        </ul>
+        <div class="quiz-actions">
+          <span class="quiz-hint" style="display:none;">Zaznacz odpowiedź, aby przejść dalej</span>
+          <button class="btn btn-primary" id="nextBtn">Dalej</button>
+        </div>
       </div>
     `;
-    dom.next.disabled = true;
-    selectedIndex = null;
 
-    // progress
-    const pct = Math.round((idx / questions.length) * 100);
-    dom.progress.style.width = `${pct}%`;
+    const answersEls = quizApp.querySelectorAll(".quiz-answer");
+    const nextBtn = quizApp.querySelector("#nextBtn");
+    const hint = quizApp.querySelector(".quiz-hint");
 
-    // bind
-    dom.card.querySelectorAll('input[name="ans"]').forEach(input => {
-      input.addEventListener("change", e => {
-        selectedIndex = Number(e.target.value);
-        dom.next.disabled = false;
+    answersEls.forEach((el) => {
+      el.addEventListener("click", () => {
+        answersEls.forEach(e => e.classList.remove("selected"));
+        el.classList.add("selected");
+        selected = Number(el.dataset.idx);
+        hint.style.display = "none";
       });
+    });
+
+    nextBtn.addEventListener("click", () => {
+      if (selected === null) {
+        hint.style.display = "inline-block";
+        return;
+      }
+
+      // Sprawdź poprawność
+      const qData = questions[idx];
+      answersEls.forEach((el, i) => {
+        if (qData.answers[i].correct) el.classList.add("correct");
+        else if (i === selected) el.classList.add("wrong");
+      });
+
+      if (qData.answers[selected].correct) score++;
+
+      nextBtn.disabled = true;
+
+      setTimeout(() => {
+        idx++;
+        if (idx < questions.length) {
+          selected = null;
+          renderQuestion();
+        } else {
+          renderResult();
+        }
+      }, 900);
     });
   }
 
   function renderResult() {
-    dom.progress.style.width = "100%";
-    const tpl = dom.resultTpl.content.cloneNode(true);
-    tpl.getElementById("scoreTxt").textContent = `${score} / ${questions.length}`;
-    dom.card.innerHTML = "";
-    dom.card.appendChild(tpl);
+    quizApp.innerHTML = `
+      <div class="quiz-card quiz-result">
+        <h2>Koniec quizu!</h2>
+        <p class="score">${score} / ${questions.length}</p>
+        <div class="quiz-actions">
+          <button class="btn btn-primary" id="retryBtn">Zagraj ponownie</button>
+          <a href="index.html#exam" class="btn">Wróć na stronę główną</a>
+        </div>
+      </div>
+    `;
 
-    const retryBtn = document.getElementById("retryBtn");
-    retryBtn.addEventListener("click", () => {
-      idx = 0; score = 0; selectedIndex = null;
-      // ponowne wymieszanie odpowiedzi
+    quizApp.querySelector("#retryBtn").addEventListener("click", () => {
+      idx = 0;
+      score = 0;
+      selected = null;
       questions = questions.map(q => ({ ...q, answers: shuffle(q.answers) }));
       renderQuestion();
-      dom.next.textContent = "Dalej";
     });
-    dom.next.style.display = "none";
   }
-
-  function next() {
-    if (selectedIndex == null) return;
-    const q = questions[idx];
-    if (q.answers[selectedIndex].correct) score += 1;
-
-    idx += 1;
-    if (idx < questions.length) {
-      renderQuestion();
-    } else {
-      renderResult();
-    }
-  }
-
-  // init
-  dom.next.addEventListener("click", next);
 
   loadQuestions()
-    .then(qs => { questions = qs; renderQuestion(); })
-    .catch(err => {
-      dom.card.innerHTML = `<p style="color:#b00020">Błąd: ${err.message}</p>`;
-      dom.next.disabled = true;
+    .then((qs) => {
+      questions = qs;
+      renderQuestion();
+    })
+    .catch((err) => {
+      quizApp.innerHTML = `<p style="color:#b00020">Błąd ładowania quizu: ${err.message}</p>`;
     });
 })();

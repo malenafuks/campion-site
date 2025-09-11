@@ -1,1 +1,525 @@
+[
+  {
+    "number": 1,
+    "mode": "statements",
+    "text": "Jak konie żyją w warunkach naturalnych?",
+    "options": [
+      { "text": "Koń jest zwierzęciem stepowym.", "correct": true },
+      { "text": "Potrzebuje ruchu i częstego pobierania niewielkich porcji paszy.", "correct": true },
+      { "text": "Żyje w stadzie o ustalonej hierarchii.", "correct": true },
+      { "text": "Ma stały dostęp do światła i świeżego powietrza.", "correct": true },
+      { "text": "Ma wyczulone zmysły i jest płochliwy.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 2,
+    "mode": "choices",
+    "text": "Jakie warunki powinien mieć koń „udomowiony”?",
+    "options": [
+      { "text": "Stajnia – stały dostęp do wody i siana, duże czyste okna, przestronne boksy, wentylacja.", "correct": true },
+      { "text": "Żywienie – często i małymi porcjami, z przewagą paszy objętościowej.", "correct": true },
+      { "text": "Zapewnienie ruchu – karuzela, lonża, trening, padokowanie.", "correct": true },
+      { "text": "Spokój – brak hałasu i nerwowej atmosfery.", "correct": true },
+      { "text": "Czystość – higiena ograniczająca gnicie strzałek, grudę.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 3,
+    "mode": "statements",
+    "text": "Jak koń reaguje na środowisko i bodźce zewnętrzne?",
+    "options": [
+      { "text": "Szybko reaguje na dźwięki i ruch, jest płochliwy.", "correct": true },
+      { "text": "Posiada szerokie pole widzenia, ale mniejszą ostrość widzenia szczegółów.", "correct": true },
+      { "text": "Ma doskonały słuch i węch.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 4,
+    "mode": "choices",
+    "text": "Jakie są podstawowe potrzeby konia?",
+    "options": [
+      { "text": "Dostęp do paszy objętościowej przez większość doby.", "correct": true },
+      { "text": "Stały dostęp do świeżej wody.", "correct": true },
+      { "text": "Możliwość ruchu i kontaktu z innymi końmi.", "correct": true },
+      { "text": "Regularna pielęgnacja i opieka weterynaryjna.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 5,
+    "mode": "statements",
+    "text": "Jakie są cechy konia jako zwierzęcia roślinożernego?",
+    "options": [
+      { "text": "Ma długi przewód pokarmowy przystosowany do częstego pobierania niewielkich ilości paszy.", "correct": true },
+      { "text": "Jest przystosowany do trawienia włóknistej paszy objętościowej.", "correct": true },
+      { "text": "Ma stosunkowo mały żołądek i duże jelita.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 6,
+    "mode": "choices",
+    "text": "Co wpływa na dobre samopoczucie konia?",
+    "options": [
+      { "text": "Odpowiednia dieta i dostęp do wody.", "correct": true },
+      { "text": "Regularny ruch i możliwość kontaktu z innymi końmi.", "correct": true },
+      { "text": "Spokojne otoczenie i higiena stajni.", "correct": true },
+      { "text": "Stały rytm dnia i rutyna.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 7,
+    "mode": "statements",
+    "text": "Jakie zmysły są szczególnie rozwinięte u konia?",
+    "options": [
+      { "text": "Słuch i węch.", "correct": true },
+      { "text": "Wzrok z szerokim polem widzenia, ale mniejszą ostrością.", "correct": true },
+      { "text": "Dotyk – wrażliwość skóry na dotyk i owady.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 8,
+    "mode": "choices",
+    "text": "Jakie zachowania są naturalne dla koni?",
+    "options": [
+      { "text": "Żerowanie przez większość doby.", "correct": true },
+      { "text": "Życie w stadzie i hierarchia społeczna.", "correct": true },
+      { "text": "Płochliwość i czujność.", "correct": true },
+      { "text": "Reakcja ucieczki na nagłe bodźce.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 9,
+    "mode": "statements",
+    "text": "Jak koń reaguje na zmianę otoczenia?",
+    "options": [
+      { "text": "Może być płochliwy i nerwowy w nowym miejscu.", "correct": true },
+      { "text": "Wymaga stopniowego przyzwyczajania do zmian.", "correct": true },
+      { "text": "Szybciej akceptuje zmiany przy obecności znanych koni lub ludzi.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 10,
+    "mode": "choices",
+    "text": "Jakie warunki powinien spełniać padok?",
+    "options": [
+      { "text": "Bezpieczne ogrodzenie, brak ostrych elementów.", "correct": true },
+      { "text": "Stały dostęp do wody i cienia.", "correct": true },
+      { "text": "Odpowiednia powierzchnia dla liczby koni.", "correct": true },
+      { "text": "Regularne sprawdzanie stanu ogrodzeń.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 11,
+    "mode": "statements",
+    "text": "Jak należy przewozić konie?",
+    "options": [
+      { "text": "W bezpiecznych przyczepach lub samochodach przystosowanych do transportu koni.", "correct": true },
+      { "text": "Zapewniając stabilne przegrody i antypoślizgową podłogę.", "correct": true },
+      { "text": "Zapewniając dostęp do wody i odpowiednią wentylację.", "correct": true },
+      { "text": "Regularnie zatrzymując się na odpoczynek podczas długich tras.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 12,
+    "mode": "choices",
+    "text": "Jakie elementy należy sprawdzić przed załadunkiem konia do przyczepy?",
+    "options": [
+      { "text": "Stan techniczny przyczepy (hamulce, światła, podłoga).", "correct": true },
+      { "text": "Czystość i przygotowanie wnętrza.", "correct": true },
+      { "text": "Wyposażenie w przegrody i zabezpieczenia.", "correct": true },
+      { "text": "Stan konia i odpowiednie wyposażenie transportowe (ochraniacze, kantar).", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 13,
+    "mode": "statements",
+    "text": "Jak przygotować konia do jazdy w terenie?",
+    "options": [
+      { "text": "Sprawdzić stan sprzętu, ogłowia, siodła i popręgu.", "correct": true },
+      { "text": "Założyć odpowiednie ochraniacze lub owijki.", "correct": true },
+      { "text": "Sprawdzić trasę i dostosować poziom trudności do koni i jeźdźców.", "correct": true },
+      { "text": "Upewnić się, że koń jest spokojny i gotowy do jazdy.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 14,
+    "mode": "choices",
+    "text": "Jakie są zasady poruszania się konno po drogach publicznych?",
+    "options": [
+      { "text": "Jeździec musi mieć ukończone 17 lat lub posiadać kartę rowerową (w przypadku młodszych).", "correct": true },
+      { "text": "Konie poruszają się przy prawej krawędzi jezdni.", "correct": true },
+      { "text": "Obowiązkowe jest stosowanie elementów odblaskowych po zmroku.", "correct": true },
+      { "text": "Jazda po drogach publicznych wymaga zachowania szczególnej ostrożności.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 15,
+    "mode": "statements",
+    "text": "Jak powinno wyglądać stanowisko do pielęgnacji konia?",
+    "options": [
+      { "text": "Powierzchnia antypoślizgowa.", "correct": true },
+      { "text": "Bezpieczne i stabilne miejsce do przywiązania konia.", "correct": true },
+      { "text": "Dostęp do światła i sprzętu pielęgnacyjnego.", "correct": true },
+      { "text": "Czystość i porządek wokół stanowiska.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 16,
+    "mode": "choices",
+    "text": "Jakie czynności obejmuje pielęgnacja konia przed jazdą?",
+    "options": [
+      { "text": "Dokładne wyczyszczenie sierści, nóg i kopyt.", "correct": true },
+      { "text": "Sprawdzenie stanu skóry i ewentualnych ran.", "correct": true },
+      { "text": "Sprawdzenie i oczyszczenie sprzętu jeździeckiego.", "correct": true },
+      { "text": "Upewnienie się, że koń jest spokojny i przygotowany.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 17,
+    "mode": "statements",
+    "text": "Jak powinno się zachowywać przy koniu podczas pielęgnacji?",
+    "options": [
+      { "text": "Stać blisko konia, utrzymując kontakt ręką.", "correct": true },
+      { "text": "Poruszać się spokojnie, bez gwałtownych ruchów.", "correct": true },
+      { "text": "Rozmawiać z koniem spokojnym tonem.", "correct": true },
+      { "text": "Stać w bezpiecznej pozycji, unikając stania za koniem.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 18,
+    "mode": "choices",
+    "text": "Jakie przybory są potrzebne do pielęgnacji konia?",
+    "options": [
+      { "text": "Zgrzebło i szczotka do sierści.", "correct": true },
+      { "text": "Kopystka do czyszczenia kopyt.", "correct": true },
+      { "text": "Grzebień lub szczotka do grzywy i ogona.", "correct": true },
+      { "text": "Ręcznik lub gąbka do przemywania oczu i nozdrzy.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 19,
+    "mode": "statements",
+    "text": "Jak prawidłowo czyścić kopyta?",
+    "options": [
+      { "text": "Ustawić się blisko konia, ręką oprzeć się na nodze konia.", "correct": true },
+      { "text": "Chwycić nogę konia i unieść ją pewnym ruchem.", "correct": true },
+      { "text": "Usuwać zanieczyszczenia od piętki do palca, zwracając uwagę na strzałkę.", "correct": true },
+      { "text": "Sprawdzić, czy nie ma kamieni, ran ani objawów gnicia strzałki.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 20,
+    "mode": "choices",
+    "text": "Jakie zasady bezpieczeństwa obowiązują podczas czyszczenia konia?",
+    "options": [
+      { "text": "Nie kucać przy nogach konia.", "correct": true },
+      { "text": "Trzymać nogę konia w bezpiecznej pozycji.", "correct": true },
+      { "text": "Stać blisko konia, zachowując kontakt.", "correct": true },
+      { "text": "Nie stawać bezpośrednio za koniem.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 21,
+    "mode": "statements",
+    "text": "Jak należy obchodzić się ze sprzętem jeździeckim?",
+    "options": [
+      { "text": "Regularnie czyścić i konserwować siodło i ogłowie.", "correct": true },
+      { "text": "Sprawdzać stan popręgu, puślisk i strzemion.", "correct": true },
+      { "text": "Przechowywać sprzęt w suchym i czystym miejscu.", "correct": true },
+      { "text": "Wymieniać uszkodzone elementy.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 22,
+    "mode": "choices",
+    "text": "Jakie elementy ogłowia należy regularnie sprawdzać?",
+    "options": [
+      { "text": "Stan naczółka i nachrapnika.", "correct": true },
+      { "text": "Stan pasków policzkowych.", "correct": true },
+      { "text": "Stan sprzączek i szwów.", "correct": true },
+      { "text": "Czystość i stan wędzidła.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 23,
+    "mode": "statements",
+    "text": "Jak należy zakładać ogłowie?",
+    "options": [
+      { "text": "Stać przy lewym boku konia.", "correct": true },
+      { "text": "Nałożyć uzdę na uszy konia ostrożnie i spokojnie.", "correct": true },
+      { "text": "Zapiąć nachrapnik i pasek podgardlany.", "correct": true },
+      { "text": "Upewnić się, że ogłowie jest wygodne i dobrze dopasowane.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 24,
+    "mode": "choices",
+    "text": "Jakie są zasady zakładania siodła?",
+    "options": [
+      { "text": "Siodło kładzie się ostrożnie, nie uderzając konia.", "correct": true },
+      { "text": "Podkładka lub czaprak powinny być czyste i ułożone równo.", "correct": true },
+      { "text": "Popręg zapina się najpierw lekko, potem dociąga.", "correct": true },
+      { "text": "Siodło musi być dobrze dopasowane.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 25,
+    "mode": "statements",
+    "text": "Jak należy prowadzić konia w ręku?",
+    "options": [
+      { "text": "Stojąc po lewej stronie konia, trzymając wodze lub uwiąz w prawej ręce, a konia prowadząc przy sobie.", "correct": true },
+      { "text": "Chodząc spokojnie, nie wyprzedzając konia.", "correct": true },
+      { "text": "Zachowując czujność i gotowość na reakcje konia.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 26,
+    "mode": "choices",
+    "text": "Jakie są zasady bezpiecznego wprowadzania konia do boksu?",
+    "options": [
+      { "text": "Wejść pierwszy i odwrócić się do konia twarzą.", "correct": true },
+      { "text": "Odpiąć uwiąz dopiero po zamknięciu drzwi boksu.", "correct": true },
+      { "text": "Wyjść ostrożnie i zamknąć drzwi.", "correct": true },
+      { "text": "Unikać nagłych ruchów i hałasu.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 27,
+    "mode": "statements",
+    "text": "Jakie są zasady wyprowadzania konia z boksu?",
+    "options": [
+      { "text": "Wejść do boksu spokojnie i założyć uwiąz.", "correct": true },
+      { "text": "Otwarcie drzwi szeroko, zanim koń wyjdzie.", "correct": true },
+      { "text": "Wyprowadzać konia przy sobie, zachowując spokój.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 28,
+    "mode": "choices",
+    "text": "Jak należy zachować się w stajni?",
+    "options": [
+      { "text": "Poruszać się spokojnie i bez gwałtownych ruchów.", "correct": true },
+      { "text": "Nie krzyczeć i nie straszyć koni.", "correct": true },
+      { "text": "Sprzęt odkładać na wyznaczone miejsca.", "correct": true },
+      { "text": "Nie pozostawiać otwartych drzwi boksów bez nadzoru.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 29,
+    "mode": "statements",
+    "text": "Jak należy przygotować stajnię przed wprowadzeniem koni?",
+    "options": [
+      { "text": "Sprawdzić czystość boksów i wymienić ściółkę.", "correct": true },
+      { "text": "Zapewnić dostęp do świeżej wody.", "correct": true },
+      { "text": "Sprawdzić stan zamków, krat i drzwi.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 30,
+    "mode": "choices",
+    "text": "Jakie są zasady karmienia koni?",
+    "options": [
+      { "text": "Karmić konie o stałych porach.", "correct": true },
+      { "text": "Podawać paszę objętościową przed treściwą.", "correct": true },
+      { "text": "Dostosować porcje do pracy konia i jego kondycji.", "correct": true },
+      { "text": "Zapewnić stały dostęp do wody.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 31,
+    "mode": "statements",
+    "text": "Jak powinno wyglądać miejsce karmienia konia?",
+    "options": [
+      { "text": "Powinno być czyste i suche.", "correct": true },
+      { "text": "Żłób i poidło muszą być sprawne i czyste.", "correct": true },
+      { "text": "Pasza powinna być podawana w odpowiednich naczyniach.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 32,
+    "mode": "choices",
+    "text": "Jakie są zasady pojenia koni?",
+    "options": [
+      { "text": "Konie powinny mieć stały dostęp do wody.", "correct": true },
+      { "text": "Woda powinna być czysta i świeża.", "correct": true },
+      { "text": "Po ciężkim wysiłku konie należy poić ostrożnie, małymi porcjami.", "correct": true },
+      { "text": "Poidła i wiadra powinny być regularnie czyszczone.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 33,
+    "mode": "statements",
+    "text": "Jak dbać o higienę i czystość w stajni?",
+    "options": [
+      { "text": "Codziennie usuwać odchody i mokrą ściółkę.", "correct": true },
+      { "text": "Regularnie wymieniać i uzupełniać ściółkę.", "correct": true },
+      { "text": "Czyścić i dezynfekować żłoby i poidła.", "correct": true },
+      { "text": "Regularnie wietrzyć stajnię.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 34,
+    "mode": "choices",
+    "text": "Jak należy dbać o bezpieczeństwo w stajni?",
+    "options": [
+      { "text": "Utrzymywać porządek i brak przeszkód na korytarzach.", "correct": true },
+      { "text": "Sprawdzać stan instalacji elektrycznych.", "correct": true },
+      { "text": "Regularnie kontrolować ogrodzenia i drzwi boksów.", "correct": true },
+      { "text": "Przechowywać sprzęt w wyznaczonych miejscach.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 35,
+    "mode": "statements",
+    "text": "Jak powinien wyglądać wybieg dla koni?",
+    "options": [
+      { "text": "Powinien mieć bezpieczne ogrodzenie i być pozbawiony ostrych przedmiotów.", "correct": true },
+      { "text": "Powierzchnia powinna być dostosowana do liczby koni.", "correct": true },
+      { "text": "Na wybiegu powinien być dostęp do wody i miejsca schronienia.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 36,
+    "mode": "choices",
+    "text": "Jakie są zasady bezpieczeństwa na padoku?",
+    "options": [
+      { "text": "Nie wchodzić na padok z dużą grupą koni bez doświadczenia.", "correct": true },
+      { "text": "Nie karmić koni na padoku z ręki.", "correct": true },
+      { "text": "Sprawdzać stan ogrodzeń.", "correct": true },
+      { "text": "Nie zostawiać bramy otwartej.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 37,
+    "mode": "statements",
+    "text": "Jak należy postępować z końmi młodymi lub nowo przybyłymi do stajni?",
+    "options": [
+      { "text": "Zapewnić im spokojne i bezpieczne miejsce.", "correct": true },
+      { "text": "Stopniowo przyzwyczajać do nowych koni i otoczenia.", "correct": true },
+      { "text": "Zachować cierpliwość i ostrożność.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 38,
+    "mode": "choices",
+    "text": "Jakie zasady obowiązują przy prowadzeniu koni po stajni i terenie?",
+    "options": [
+      { "text": "Zawsze prowadzić konia na uwiązie lub wodzach.", "correct": true },
+      { "text": "Prowadzić konia po lewej stronie.", "correct": true },
+      { "text": "Unikać gwałtownych ruchów i hałasu.", "correct": true },
+      { "text": "Zachować szczególną ostrożność przy drzwiach i bramach.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 39,
+    "mode": "statements",
+    "text": "Jakie są zasady bezpieczeństwa podczas jazdy konnej?",
+    "options": [
+      { "text": "Zawsze nosić kask ochronny.", "correct": true },
+      { "text": "Sprawdzić sprzęt przed jazdą.", "correct": true },
+      { "text": "Dostosować trasę i tempo jazdy do umiejętności jeźdźca i konia.", "correct": true },
+      { "text": "Przestrzegać zasad ruchu i sygnałów w grupie.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 40,
+    "mode": "choices",
+    "text": "Jakie są podstawowe zasady asekuracji początkującego jeźdźca?",
+    "options": [
+      { "text": "Zapewnić asekurację przy wsiadaniu i zsiadaniu.", "correct": true },
+      { "text": "Prowadzić konia w ręku na początku nauki.", "correct": true },
+      { "text": "Dostosować ćwiczenia do poziomu jeźdźca.", "correct": true },
+      { "text": "Obserwować zachowanie konia i reagować na sygnały.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 41,
+    "mode": "statements",
+    "text": "Jak należy przygotować konia do pracy na lonży?",
+    "options": [
+      { "text": "Założyć kantar lub ogłowie z lonżownikiem.", "correct": true },
+      { "text": "Używać lonży i bata do lonżowania.", "correct": true },
+      { "text": "Zapewnić bezpieczne ogrodzone miejsce.", "correct": true },
+      { "text": "Sprawdzić sprzęt i dopasowanie.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 42,
+    "mode": "choices",
+    "text": "Jakie są zasady pracy z koniem na lonży?",
+    "options": [
+      { "text": "Zachować bezpieczną odległość od konia.", "correct": true },
+      { "text": "Pracować w równym rytmie i tempie.", "correct": true },
+      { "text": "Zmieniać kierunki i tempa.", "correct": true },
+      { "text": "Używać sygnałów głosowych i bata jako pomocy.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 43,
+    "mode": "statements",
+    "text": "Jak należy przygotować konia do skoków?",
+    "options": [
+      { "text": "Rozgrzać konia na płaskim terenie.", "correct": true },
+      { "text": "Sprawdzić dopasowanie sprzętu i ochraniaczy.", "correct": true },
+      { "text": "Stopniowo zwiększać wysokość i trudność przeszkód.", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 44,
+    "mode": "choices",
+    "text": "Jakie są zasady bezpiecznego skakania?",
+    "options": [
+      { "text": "Dostosować wysokość przeszkód do umiejętności konia i jeźdźca.", "correct": true },
+      { "text": "Utrzymywać równowagę i odpowiednią pozycję nad przeszkodą.", "correct": true },
+      { "text": "Nie podchodzić do przeszkody zbyt szybko ani zbyt wolno.", "correct": true },
+      { "text": "Zachować równy rytm i prostą linię najazdu.", "correct": true }
+    ],
+    "explanation": ""
+  }
+]
+
+
+
 

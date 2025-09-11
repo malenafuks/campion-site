@@ -1,0 +1,4728 @@
+[
+  {
+    "number": 1,
+    "mode": "statements",
+    "text": "Jak konie żyją w warunkach naturalnych?",
+    "options": [
+      {
+        "text": "Koń jest zwierzęciem stepowym.",
+        "correct": true
+      },
+      {
+        "text": "Wiąże się z tym potrzeba ruchu i częstego pobierania niewielkich porcji paszy.",
+        "correct": true
+      },
+      {
+        "text": "Konie żyją w stadzie o ściśle ustalonej hierarchii.",
+        "correct": true
+      },
+      {
+        "text": "Koń, poprzez przebywanie na wolności ma stały dostęp do naturalnego światła, powietrza i sam dostosowuje się do temperatury otoczenia.",
+        "correct": true
+      },
+      {
+        "text": "Ponieważ jest roślinożercą, a sam stanowi pożywienie dla drapieżników, jego zmysły są wyczulone – nazywamy to płochliwością.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 2,
+    "mode": "choices",
+    "text": "Jakie warunki zapewnione powinien mieć koń „udomowiony”?",
+    "options": [
+      {
+        "text": "Stajnia – stały dostęp do wody i siana, duże czyste okna, przestronne boksy, możliwość widzenia innych koni, wentylacja (w stajni gromadzą się szkodliwe gazy, takie jak amoniak, dwutlenek węgla, siarkowodór), temperatura powinna być zbliżona do temperatury na zewnątrz (nie ogrzewamy stajni), służy to jego zdrowiu gdyż buduje on swoją odporność. W stajni nie może być przeciągów, wystających ostrych krawędzi.",
+        "correct": true
+      },
+      {
+        "text": "Żywienie – często i małymi porcjami w kolejności: woda, siano, owies minimum trzy razy dziennie.",
+        "correct": true
+      },
+      {
+        "text": "Zapewnienie ruchu – karuzela, lonża, trening pod siodłem, padokowanie.",
+        "correct": true
+      },
+      {
+        "text": "Spokój w stajni- brak hałasu, biegania, itp. Koń w stajni ma mieć możliwość odpoczynku.",
+        "correct": true
+      },
+      {
+        "text": "Czystość w stajni – najczęstszą konsekwencją przebywania koni na brudnej, mokrej ściółce jest powstawanie schorzeń strzałki kopytowej (tzw. gnicie strzałek), stany zapalne skóry w okolicy koronek, pęcin i nadpęci – tzw. gruda oraz niekiedy schorzenia górnych dróg oddechowych wywołane nadmiarem amoniaku w powietrzu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 3,
+    "mode": "choices",
+    "text": "Poprzez jakie zachowanie koń wyraża swoje emocje?",
+    "options": [
+      {
+        "text": "Uszy: • Położone płasko wzdłuż potylicy – złość, agresja. • Zwisające – apatia, senność. • Ustawione do przodu – zainteresowanie, ciekawość.",
+        "correct": true
+      },
+      {
+        "text": "Oczy: wyrażają nastrój i uczucia zwierzęcia. Z ich wyrazu można odczytać uwagę, zrównoważenie, strach, agresje i ból.",
+        "correct": true
+      },
+      {
+        "text": "Wydawanie dźwięków: • Kwiczenie – ostrzeżenie. • Parskanie – zadowolenie, relaks. • Rżenie- pozytywne nawoływanie.",
+        "correct": true
+      },
+      {
+        "text": "Pysk: • Zwisająca warga – apatia, senność. • Kłapanie u źrebaka – „jestem mały i bezbronny, nie rób mi krzywdy”. • Marszczenie nozdrzy – ostrzeżenie. • Kłapanie zębami – agresja. • Oblizywanie się, podnoszenie wargi – zadowolenie, smakowanie, rozpoznawanie zapachu.",
+        "correct": true
+      },
+      {
+        "text": "Mowa ciała: • Wspinanie się, kopanie przodem (głownie ogiery), kopanie tyłem (głównie klacze), odwracanie się tyłem, nerwowe machanie ogonem – agresja. • Opuszczona głowa, odciążona tylna noga – apatia, odpoczynek. • Nadmierne i gwałtowne przemieszczanie się po boksie, grzebanie nogą, częste pokładanie i wstawanie – ból.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 4,
+    "mode": "choices",
+    "text": "Co to są nałogi i narowy?",
+    "options": [
+      {
+        "text": "Nałogi – niegroźne dla człowieka np.: tkanie, łykanie.",
+        "correct": true
+      },
+      {
+        "text": "Narowy – groźne dla człowieka np.: kopanie, gryzienie, dociskanie do ściany.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 5,
+    "mode": "statements",
+    "text": "Opisz pole widzenia konia.",
+    "options": [
+      {
+        "text": "Oczy konia są umieszczone po bokach głowy, dlatego widzi on prawie wszystko z tyłu i boku, ale obraz ten jest płaski i nieostry.",
+        "correct": true
+      },
+      {
+        "text": "Obraz jest ostry i przestronny w wąskim trójkącie przed głową.",
+        "correct": true
+      },
+      {
+        "text": "Koń nie widzi tuż przed i za sobą.",
+        "correct": true
+      },
+      {
+        "text": "Te miejsca nazywamy „martwym polem”.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 6,
+    "mode": "statements",
+    "text": "Dlaczego umiejętność obserwacji konia jest ważna dla bezpieczeństwa jeźdźca?",
+    "options": [
+      {
+        "text": "Koń swoim zachowaniem często zdradza swój nastrój i zamiary wobec otoczenia, w związku z czym jeździec powinien dostrzegać i rozumieć znaki, którymi koń ostrzega np. o zamiarze ataku.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 7,
+    "mode": "statements",
+    "text": "Czego należy unikać podczas wykonywania wszelkich czynności przy koniach?",
+    "options": [
+      {
+        "text": "Należy unikać wejścia w martwe pole widzenia konia, popadania w rutynę, obojętności i niedbalstwa w stosunku do konia, zbliżania się do konia bez uprzedzenia głosem, szybkich, gwałtownych ruchów, biegania i krzyków w stajni.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 8,
+    "mode": "statements",
+    "text": "Wobec jakich koni należy zachować szczególną ostrożność?",
+    "options": [
+      {
+        "text": "Szczególną ostrożność należy zachować wobec klaczy ze źrebiętami, w porze karmienia, zbliżając się do konia w niecodziennym stroju, w pracy z ogierami i z „trudnymi” końmi oraz wobec wszystkich obcych, nieznanych sobie koni.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 9,
+    "mode": "statements",
+    "text": "W jakich okolicznościach konie mogą przejawiać szczególne zdenerwowanie lub agresje?",
+    "options": [
+      {
+        "text": "Konie często przejawiają szczególne zdenerwowanie np. w porze karmienia, w przypadku wprowadzenia do stajni obcych koni.",
+        "correct": true
+      },
+      {
+        "text": "Zdenerwowanie mogą przejawiać również klacze podczas rui.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 10,
+    "mode": "statements",
+    "text": "Jak należy postępować z psami na terenie ośrodków jeździeckich?",
+    "options": [
+      {
+        "text": ", Jeżeli regulamin danego ośrodka nie zabrania wprowadzania psów na jego teren, (co często się zdarza) to psy powinny być zawsze trzymane na smyczy i kontrolowane przez opiekuna.",
+        "correct": true
+      },
+      {
+        "text": "Nagłe wtargniecie szczekającego psa na ujeżdżalnię lub do stajni może spowodować tragiczny w skutkach wypadek.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 11,
+    "mode": "statements",
+    "text": "Dlaczego należy uważać wchodząc do boksu konia?",
+    "options": [
+      {
+        "text": "Wchodząc do boksu wkraczamy w bezpośrednią strefę bezpieczeństwa zwierzęcia, w której toleruje jedynie własne potomstwo (klacze) i inne zaprzyjaźnione konie.",
+        "correct": true
+      },
+      {
+        "text": "W razie nagłego wtargnięcia w tę strefę koń może się przestraszyć i wobec braku możliwości ucieczki, zareagować atakiem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 12,
+    "mode": "statements",
+    "text": "W którym miejscu najbezpieczniej przebywać obok konia?",
+    "options": [
+      {
+        "text": "Koń nie potrafi kopać w bok bez skrętu tułowia.",
+        "correct": true
+      },
+      {
+        "text": "Najbardziej bezpieczne miejsce obok konia znajduje się tuż przy jego łopatce.",
+        "correct": true
+      },
+      {
+        "text": "W bezpośredniej okolicy biodra konia niebezpieczeństwo kopnięcia jest mniejsze niż wówczas, gdy staniemy w pewnej odległości od biodra.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 13,
+    "mode": "statements",
+    "text": "Wymień bezpieczne miejsca podczas pielęgnacji konia?",
+    "options": [
+      {
+        "text": "Bezpieczne miejsca podczas pielęgnacji konia znajdują się blisko jego ciała, w okolicy łopatek i boków, do guzów biodrowych.",
+        "correct": true
+      },
+      {
+        "text": "Należy pamiętać, że stojąc w pewnym oddaleniu od konia jest się bardziej narażonym na kopniecie, niż stojąc blisko jego ciała.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 14,
+    "mode": "statements",
+    "text": "Co należy zrobić przed wejściem do boksu lub stanowiska?",
+    "options": [
+      {
+        "text": "Przed wejściem do boksu lub stanowiska należy konia uprzedzić głosem, np. wymawiając głośno jego imię.",
+        "correct": true
+      },
+      {
+        "text": "Przed wejściem należy upewnić się, że koń zwrócił na nas uwagę, np. odwracając w naszym kierunku głowę.",
+        "correct": true
+      },
+      {
+        "text": "Gwałtowne wtargniecie do boksu lub stanowiska grozi przestraszeniem się konia i odruchową reakcja obronną np. kopnięciem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 15,
+    "mode": "statements",
+    "text": "Co oznacza czerwona wstążeczka wpleciona w grzywę lub ogon konia?",
+    "options": [
+      {
+        "text": "Koniom gryzącym wplata się w grzywę czerwona wstążeczkę, koniom kopiącym wstążeczkę taką wplata się w ogon.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 16,
+    "mode": "statements",
+    "text": "Co to jest stanowisko? Opisz jak wejdziesz i wyprowadzisz konia ze stanowiska.",
+    "options": [
+      {
+        "text": "Stanowisko jest to miejsce w stajni, w którym koń mieszka.",
+        "correct": true
+      },
+      {
+        "text": "Jest on uwiązany głową do ściany, a zadem skierowany jest w stronę korytarza.",
+        "correct": true
+      },
+      {
+        "text": "Posiada ścianki działowe, ale nie ma drzwi.",
+        "correct": true
+      },
+      {
+        "text": "Do konia stojącego w stanowisku zawsze wchodzimy z jego lewej strony.",
+        "correct": true
+      },
+      {
+        "text": "Przechodząc na prawą stronę konia należy wyjść ze stanowiska, głosem uprzedzić konia o zamiarze ponownego wejścia (można powiedzieć „Miejsce!”, lub „Przesuń się!”) i upewniwszy się, że koń poprawnie zareagował na nasze polecenie, wejść do stanowiska z prawej strony.",
+        "correct": true
+      },
+      {
+        "text": "Przechodzenie pod szyja konia wiąże się z wejściem w jego martwe pole widzenia.",
+        "correct": true
+      },
+      {
+        "text": "Znikamy mu wówczas z oczu i w razie spłoszenia koń może nas stratować.",
+        "correct": true
+      },
+      {
+        "text": "Po uprzedzeniu konia głosem nawiązujemy kontakt fizyczny poprzez pogłaskanie lub poklepanie konia w okolicy szyi lub łopatki.",
+        "correct": true
+      },
+      {
+        "text": "Nie należy nigdy klepać konia po zadzie.",
+        "correct": true
+      },
+      {
+        "text": "Stojąc na wprost głowy konia, trzymając i naciskając na kantar lub ogłowie należy konia spokojnie wycofywać, pamiętając o tym, że koń wchodzi we własne martwe pole widzenia – cofa się „po omacku”.",
+        "correct": true
+      },
+      {
+        "text": "Wycofując konia należy uważać, by nie wszedł on na przedmioty, które znajdują się za nim w jego martwym polu widzenia – może to przestraszyć konia i wywołać objawy paniki.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 17,
+    "mode": "statements",
+    "text": "Jak poprawnie wyprowadzić konia z boksu?",
+    "options": [
+      {
+        "text": "Należy otworzyć szeroko drzwi i trzymając za uwiąz lub za długie wodze wyprowadzić konia na wprost, a następnie łagodnie skręcać w odpowiednim kierunku.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 18,
+    "mode": "statements",
+    "text": "Wymień podstawowe zasady bezpieczeństwa przy prowadzeniu konia w ręku?",
+    "options": [
+      {
+        "text": "Prowadzący konia powinien znajdować się z jego lewej strony, na wysokości końskiej głowy.",
+        "correct": true
+      },
+      {
+        "text": "Należy prowadzić konia w żywym, energicznym tempie.",
+        "correct": true
+      },
+      {
+        "text": "Należy naraz prowadzić tylko jednego konia.",
+        "correct": true
+      },
+      {
+        "text": "Bezpieczniej jest prowadzić konia na odpowiednio długiej lonży lub uwiązie.",
+        "correct": true
+      },
+      {
+        "text": "Nigdy nie zawijać końca linki wokół dłoni, nadgarstka lub przedramienia (można doznać poważnej kontuzji).",
+        "correct": true
+      },
+      {
+        "text": "Do prowadzenia konia należy wkładać rękawiczki.",
+        "correct": true
+      },
+      {
+        "text": "Konie należy przeprowadzać w twardym obuwiu.",
+        "correct": true
+      },
+      {
+        "text": "Niedopuszczalne jest prowadzenie koni w sandałach, klapkach czy miękkim obuwiu tekstylnym.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 19,
+    "mode": "statements",
+    "text": "Jak trzymamy wodze prowadząc konia w ogłowiu wędzidłowym?",
+    "options": [
+      {
+        "text": "Wodze musza być zdjęte z szyi (z wyjątkiem ogłowia z wytokiem) prawa dłoń ujmuje wodze rozdzielone palcem wskazującym i środkowym na odległość dłoni od kółek wędzidłowych, przy czym prawa wodza jest nieco krótsza.",
+        "correct": true
+      },
+      {
+        "text": "Końcówki wodzy leżą w lewej dłoni złożone razem i przytrzymane kciukiem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 20,
+    "mode": "statements",
+    "text": "Jakie buty należy włożyć przystępując do przeprowadzania koni w ręku?",
+    "options": [
+      {
+        "text": "Do prowadzenia konia należy zakładać twarde, mocne buty, które ochronią stopę w razie nastąpienia na nią przez konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 21,
+    "mode": "statements",
+    "text": "Dlaczego nie należy prowadzić naraz więcej, niż jednego konia?",
+    "options": [
+      {
+        "text": "Prowadząc więcej niż jednego konia naraz nie mamy nad nimi praktycznie żadnej kontroli, co w razie spłoszenia się koni może doprowadzić do wypadku.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 22,
+    "mode": "statements",
+    "text": "Czy koń puszczony na wybieg powinien mieć wkręcone hacele?",
+    "options": [
+      {
+        "text": "Hacele przed wypuszczeniem koni na wybieg powinny być wykręcone, aby zmniejszyć ryzyko okaleczenia się konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 23,
+    "mode": "statements",
+    "text": "Dlaczego wyprowadzanie koni na wybieg niesie ze sobą ryzyko?",
+    "options": [
+      {
+        "text": "Zniecierpliwiony koń może próbować się przedwcześnie wyrwać i kopnąć prowadząca osobę.",
+        "correct": true
+      },
+      {
+        "text": "Podczas otwierania wejścia na wybieg osoba prowadząca konia dysponuje tylko jedna wolna rękę, co również stanowi dodatkowe utrudnienie w zapanowaniu nad koniem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 24,
+    "mode": "statements",
+    "text": "Czy można przywiązać konia używając do tego celu wodzy?",
+    "options": [
+      {
+        "text": "Nigdy nie należy wiązać okiełznanego konia za wodze.",
+        "correct": true
+      },
+      {
+        "text": "Grozi to, w razie szarpnięcia się konia, nie tylko rozerwaniem ogłowia, ale przede wszystkim poważnym okaleczeniem konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 25,
+    "mode": "statements",
+    "text": "Jaki sprzęt jest potrzebny, by poprawnie i bezpiecznie przywiązać konia?",
+    "options": [
+      {
+        "text": "Do poprawnego przywiązania konia potrzebny jest kantar oraz uwiąz, najlepiej zaopatrzony w karabińczyk bezpieczeństwa.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 26,
+    "mode": "statements",
+    "text": "Dlaczego nie należy wiązać konia do elementów pionowych (np. drzewa, słupa) itd.?",
+    "options": [
+      {
+        "text": "Koń przywiązany do pojedynczego drzewa, słupa, itd. może niebezpiecznie skrócić uwiąz obchodząc go dookoła, ponadto uwiąz może się zsunąć w dół uniemożliwiając uniesienie koniowi głowy lub powodując zaplatanie się kończyn, a tym samym wywołać objawy paniki.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 27,
+    "mode": "statements",
+    "text": "Co to jest karabińczyk bezpieczeństwa?",
+    "options": [
+      {
+        "text": "Jest to karabińczyk o takiej konstrukcji, która umożliwia jego otwarcie nawet przy silnym naprężeniu przymocowanej do niego linki.",
+        "correct": true
+      },
+      {
+        "text": "Najczęściej otwarcie karabińczyka następuje poprzez przesuniecie w dół obudowy, zwykle oznaczonej strzałką.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 28,
+    "mode": "statements",
+    "text": "Jakie zasady bezpieczeństwa należy zachować podnosząc kończyny konia?",
+    "options": [
+      {
+        "text": "Kończyny konia należy podnosić tylko tam, gdzie jest dostatecznie dużo miejsca, co zapewnia swobodę ruchów.",
+        "correct": true
+      },
+      {
+        "text": "Ponadto należy zachować spokój i wszystkie czynności wykonywać dokładnie i delikatnie, gdyż np. nagłe złapanie konia dłonią za pęcinę może spowodować jego przestraszenie się i kopnięcie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 29,
+    "mode": "statements",
+    "text": "Czy konia należy czyścić w boksie lub stanowisku?",
+    "options": [
+      {
+        "text": "Konia należy czyścic poza boksem lub stanowiskiem, by uniknąć osiadania kurzu i brudu, najlepiej przy specjalnym stanowisku do czyszczenia (tzw. koniowiązie) poza stajnią, względnie na korytarzu.",
+        "correct": true
+      },
+      {
+        "text": "Konia należy przywiązać w miarę możliwości na dwóch uwiązach, aby uniemożliwić mu zbytnie poruszanie się oraz by ułatwić dostęp do każdego miejsca przy koniu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 30,
+    "mode": "statements",
+    "text": "Do czego służy metalowe zgrzebło?",
+    "options": [
+      {
+        "text": "Metalowe zgrzebło służy do czyszczenia szczotki.",
+        "correct": true
+      },
+      {
+        "text": "Nie należy nim czyścić konia!",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 31,
+    "mode": "statements",
+    "text": "Dlaczego ważna jest staranna pielęgnacja kopyt?",
+    "options": [
+      {
+        "text": "Zdrowe kopyta są fundamentem każdego konia.",
+        "correct": true
+      },
+      {
+        "text": "Brak pielęgnacji kopyt prowadzi do wielu poważnych schorzeń, prowadzących do kulawizn i braku możliwości użytkowania takiego konia.",
+        "correct": true
+      },
+      {
+        "text": "Do codziennej pielęgnacji kopyt należy: czyszczenie podeszw kopyt kopystką - przed i po jeździe, kontrola stanu zamocowania podków, mycie z brudu i błota bieżącą wodą, natłuszczanie wymytych kopyt smarem do kopyt, okresowe smarowanie podeszw kopyt i strzałek dziegciem (najwyżej raz w tygodniu).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 32,
+    "mode": "statements",
+    "text": "Po co podkuwa się konie i jak często?",
+    "options": [
+      {
+        "text": "Konie pracujące na twardym podłożu ścierają róg kopyta szybciej, niż zdąży on narosnąć.",
+        "correct": true
+      },
+      {
+        "text": "Podkowa ma za zadanie chronić kopyto przed ścieraniem się, a także przed urazami na nierównym np. kamienistym podłożu.",
+        "correct": true
+      },
+      {
+        "text": "Ponadto odpowiednio dobrane podkowy zapobiegają ślizganiu się koni, a także mogą służyć do korekcji wad postawy kończyn (podkuwanie ortopedyczne).",
+        "correct": true
+      },
+      {
+        "text": "Konie powinno się przekuwać regularnie, co 6 tygodni.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 33,
+    "mode": "statements",
+    "text": "Co to są hacele? Czy można je stosować przy wypuszczaniu konia na padok?",
+    "options": [
+      {
+        "text": "Hacele to specjalne śruby wkręcane do otworów umieszczonych najczęściej na końcach ramion podkowy.",
+        "correct": true
+      },
+      {
+        "text": "Zapobiegają one ślizganiu się konia.",
+        "correct": true
+      },
+      {
+        "text": "Po pracy powinny być wykręcane.",
+        "correct": true
+      },
+      {
+        "text": "Absolutnie nie można wypuszczać w nich konia na padok.",
+        "correct": true
+      },
+      {
+        "text": "Grozi to uszkodzeniem koronki.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 34,
+    "mode": "statements",
+    "text": "W jakim celu stosujemy bandaże i ochraniacze?",
+    "options": [
+      {
+        "text": "Aby ochronić kończyny konia przed wszelkiego rodzaju urazami, które mogą wyłączyć konia na dłuży czas z użytkowania.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 35,
+    "mode": "statements",
+    "text": "W jakim celu stosuje się kalosze dla koni?",
+    "options": [
+      {
+        "text": "Kalosze chronią wrażliwe koronki i piętki przed urazami.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 36,
+    "mode": "statements",
+    "text": "Dlaczego bandażowanie kończyn wymaga wiedzy i doświadczenia?",
+    "options": [
+      {
+        "text": "Bandaże musza być zawsze właściwie i umiejętnie założone, gdyż błędy w bandażowaniu mogą być przyczyną zarówno zakłóceń w jakości ruchu (np. w skutek bólu wywołanego uciskiem), jak i źródłem dodatkowych urazów.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 37,
+    "mode": "statements",
+    "text": "Jakie jest uzasadnienie stosowania derek dla koni? Wymień co najmniej 4 rodzaje.",
+    "options": [
+      {
+        "text": "Derki stosuje się przede wszystkim dla koni strzyżonych oraz intensywnie pracujących, by zapobiec niepotrzebnym stratom energii i gwałtownym przechłodzeniom mięśni po treningu, a także do ochrony w transporcie.",
+        "correct": true
+      },
+      {
+        "text": "Generalnie stosuje się je dla ochrony przed wpływem niekorzystnych warunków atmosferycznych (chłód, wiatr) i dla utrzymania właściwej temperatury ciała konia.",
+        "correct": true
+      },
+      {
+        "text": "Rodzaje derek: derki stajenne, derki zimowe, derki letnie, derki treningowe, derki siatkowe, derki przeciwdeszczowe, derki pastwiskowe (padokowe).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 38,
+    "mode": "statements",
+    "text": "Wymień przynajmniej trzy cechy świadczące o dobrym zdrowiu konia.",
+    "options": [
+      {
+        "text": "Błyszcząca sierść, dobry apetyt, swobodny i regularny ruch.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 39,
+    "mode": "statements",
+    "text": "Jakie znasz podstawowe maści koni?",
+    "options": [
+      {
+        "text": "Podstawowe maści koni to maść kara, kasztanowata, gniada i siwa.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 40,
+    "mode": "statements",
+    "text": "Jakiego koloru grzywę i sierść ma koń gniady?",
+    "options": [
+      {
+        "text": "Koń gniady ma okrywę włosowa ciała koloru brązowego, w odcieniach od ciemnobrązowej do jasnej, zaś grzywa i ogon są koloru czarnego.",
+        "correct": true
+      },
+      {
+        "text": "U koni gniadych również najczęściej kończyny poniżej stawu nadgarstkowego i skokowego są koloru czarnego.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 41,
+    "mode": "statements",
+    "text": "Czym różni się maść kasztanowata od maści gniadej?",
+    "options": [
+      {
+        "text": "Maść kasztanowata to brązowożółte lub rude zabarwienie sierści, przy czym grzywa i ogon są tej samej lub jaśniejszej barwy, nigdy czarnej.",
+        "correct": true
+      },
+      {
+        "text": "Natomiast w maści gniadej sierść na głowie i tułowiu jest barwy brunatnej o różnym natężeniu i odcieniach, a grzywa i ogon są zawsze czarne.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 42,
+    "mode": "statements",
+    "text": "Co to są odmiany?",
+    "options": [
+      {
+        "text": "Odmiany są to białe, czasem nakrapiane plamy występujące na głowie, kończynach, rzadziej na innych częściach ciała, np. na brzuchu.",
+        "correct": true
+      },
+      {
+        "text": "Białe plamy występują w miejscach, gdzie skóra nie jest pigmentowana (koloru jasnego, lekko różowego).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 43,
+    "mode": "statements",
+    "text": "Jaki sposób utrzymywania koni jest dla nich lepszy – w boksach czy w stanowiskach?",
+    "options": [
+      {
+        "text": "Utrzymywanie koni w boksach jest bez porównania lepszym rozwiązaniem, ze względu na komfort i swobodę, jaka jest pozostawiona zwierzęciu.",
+        "correct": true
+      },
+      {
+        "text": "Ponadto przebywanie w boksie jest o wiele bardziej bezpieczne dla konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 44,
+    "mode": "statements",
+    "text": "Na co trzeba zwracać uwagę umieszczając kilka koni w sąsiadujących boksach?",
+    "options": [
+      {
+        "text": "Konie sąsiadujące ze sobą powinny być dobrane pod względem płci oraz wzajemnych sympatii.",
+        "correct": true
+      },
+      {
+        "text": "Nie należy stawiać ogierów obok klaczy, nie należy stawiać obok siebie koni, które się wzajemnie nie tolerują.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 45,
+    "mode": "statements",
+    "text": "Jakie materiały najczęściej stosuje się jako ściółkę dla koni?",
+    "options": [
+      {
+        "text": "Jako ściółkę najczęściej stosujemy słomę (żytnia, pszenna, owsiana), trociny, oraz specjalne granulaty syntetyczne.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 46,
+    "mode": "statements",
+    "text": "Wymień rodzaje pasz dla koni.",
+    "options": [
+      {
+        "text": "Główne rodzaje pasz dla koni to: pasze objętościowe soczyste, pasze objętościowe suche, pasze treściwe, dodatki mineralno-witaminowe oraz przemysłowe pasze pełnoporcjowe.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 47,
+    "mode": "statements",
+    "text": "Co jest najbardziej wartościowa pasza objętościowa dla koni?",
+    "options": [
+      {
+        "text": "Najwartościowsza objętościowa pasza dla koni jest trawa pastwiskowa, pobierana przez konie bezpośrednio na pastwisku.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 48,
+    "mode": "statements",
+    "text": "Wymień kilka (przynajmniej trzy) znane Ci pasze treściwe.",
+    "options": [
+      {
+        "text": "Owies, jęczmień, kukurydza, nasiona lnu, bobik, otręby pszenne.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 49,
+    "mode": "statements",
+    "text": "Co to jest mesz?",
+    "options": [
+      {
+        "text": "Mesz to dietetyczna pasza dla koni przyrządzona na bazie owsa, rozgotowanego siemienia lnianego i otrąb pszennych.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 50,
+    "mode": "statements",
+    "text": "Czy jakość paszy ma znaczenie w żywieniu koni?",
+    "options": [
+      {
+        "text": "Pasze dla koni powinny być najlepszej jakości, bez śladów zgnilizny, pleśni oraz bez jakichkolwiek budzących wątpliwość zapachów (np. stęchlizny, pleśni itp.).",
+        "correct": true
+      },
+      {
+        "text": "Rośliny okopowe (marchew, buraki) musza być umyte i nie mogą być przemarznięte.",
+        "correct": true
+      },
+      {
+        "text": "Nieodpowiednia jakość paszy grozi zaburzeniami ze strony układu pokarmowego.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 51,
+    "mode": "statements",
+    "text": "Od czego zależy dobór dawki pokarmowej dla konia?",
+    "options": [
+      {
+        "text": "Dobór dawki pokarmowej dla konia zależy od rasy, wieku, masy ciała, obciążenia pracą, a także pory roku i temperatury powietrza.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 52,
+    "mode": "statements",
+    "text": "Kiedy podajemy najwięcej paszy objętościowej?",
+    "options": [
+      {
+        "text": "Największe porcje paszy objętościowej podajemy koniowi na noc, przy wieczornym karmieniu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 53,
+    "mode": "statements",
+    "text": "Po jakim czasie od karmienia można wziąć konia do pracy?",
+    "options": [
+      {
+        "text": "Koń może być wzięty do pracy po upływie minimum jednej godziny od zakończenia pobierania paszy (nie od nasypania do żłobu!!!).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 54,
+    "mode": "statements",
+    "text": "Jaki rodzaj paszy należy ograniczyć w dni wolne od pracy?",
+    "options": [
+      {
+        "text": "W dni wolne od pracy należy zredukować ilość podawanej paszy treściwej.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 55,
+    "mode": "statements",
+    "text": "Czy podanie koniowi spleśniałego siana może być szkodliwe?",
+    "options": [
+      {
+        "text": "Podawanie koniom spleśniałego siana może wywołać wiele groźnych chorób, przede wszystkim przewodu pokarmowego (morzysko – pot. kolka).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 56,
+    "mode": "statements",
+    "text": "Czy skoszona trawa może być podana na drugi dzień?",
+    "options": [
+      {
+        "text": "Skoszona jak najszybciej.",
+        "correct": true
+      },
+      {
+        "text": "Przechowywana dłużej niż kilka godzin ulega „zaparzeniu” i nie nadaje się do spożycia dla koni. trawa powinna być podana koniom",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 57,
+    "mode": "statements",
+    "text": "Jakie cechy zewnętrznego wyglądu konia mogą świadczyć o jego złym stanie zdrowia?",
+    "options": [
+      {
+        "text": "Objawy nienormalnego wyglądu konia, mogące świadczyć o jego chorobie, są następujące: zmierzwiona, szorstka, pozbawiona połysku sierść, osowiałość, opuszczona głowa, brak apetytu, pocenie się bez zewnętrznej przyczyny (np. na skutek wysiłku lub wysokiej temperatury otoczenia), krótkie, nieregularne oddechy, niepokój, pokładanie się, grzebanie przednimi kończynami, tarzanie się (częste).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 58,
+    "mode": "statements",
+    "text": "Czy brak chęci do pracy i ospałość u konia jest jedynie objawem jego lenistwa, czy może",
+    "options": [
+      {
+        "text": "Objawy te mogą świadczyć o rozwoju choroby, w związku z czym ich zauważenie powinno skłonić do konsultacji z lekarzem weterynarii.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 59,
+    "mode": "statements",
+    "text": "Czy częste tarzanie się konia i grzebanie przednimi kończynami powinno zaniepokoić",
+    "options": [
+      {
+        "text": "Takie zachowanie konia może być objawem bardzo groźnej, często śmiertelnej dolegliwości przewodu pokarmowego – kolki (morzyska).",
+        "correct": true
+      },
+      {
+        "text": "Ich zauważenie jest podstawą do natychmiastowego wezwania pomocy, gdyż zbyt późno podjęte leczenie kolki często prowadzi do śmierci konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 60,
+    "mode": "statements",
+    "text": "Przeciwko jakim chorobom przeprowadza się szczepienia profilaktyczne u koni?",
+    "options": [
+      {
+        "text": "Obowiązkowo szczepi się konie przeciwko grypie (wymagają tego przepisy PZJ wobec koni biorących udział w zawodach), a ponadto szczepi się konie przeciwko tężcowi i przeciwko wściekliźnie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 61,
+    "mode": "statements",
+    "text": "W jakim celu odrobacza się konie?",
+    "options": [
+      {
+        "text": "Konie korzystające z pastwisk, wybiegów oraz pobierające pasze i wodę z różnych źródeł narażone są na inwazje pasożytów.",
+        "correct": true
+      },
+      {
+        "text": "Aby zapobiec silnemu zarobaczeniu koni i związanymi z nim schorzeniami należy regularnie – przynajmniej dwukrotnie w ciągu roku – podawać preparaty przeciwko pasożytom, czyli odrobaczać konie.",
+        "correct": true
+      },
+      {
+        "text": "O sposobie odrobaczania i rodzaju leku decyduje lekarz weterynarii.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 62,
+    "mode": "statements",
+    "text": "Jak często powinno się odrobaczać konie?",
+    "options": [
+      {
+        "text": "Konie utrzymywane na pastwiskach powinny być odrobaczane 4 razy w roku, konie utrzymywane tylko w stajniach – 2 razy w roku.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 63,
+    "mode": "statements",
+    "text": "Wymień najważniejsze środki i materiały, które powinny znajdować się w każdej",
+    "options": [
+      {
+        "text": "Podstawowe środki dezynfekujące, Altacet, zasypka alantanowa, środki opatrunkowe (w ilościach wystarczających na opatrzenie większych ran u konia!), nożyczki z zaokrąglonymi końcami, ostry nóż, pęseta, termometr weterynaryjny, dutka, kaganiec ograniczający dostęp do paszy, SPRAWNA latarka.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 64,
+    "mode": "statements",
+    "text": "Wymień kilka najczęściej stosowanych środków dezynfekujących.",
+    "options": [
+      {
+        "text": "Najczęściej stosuje się wodę utlenioną, jodynę, rivanol.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 65,
+    "mode": "statements",
+    "text": "Dlaczego w apteczce powinna znajdować się dutka?",
+    "options": [
+      {
+        "text": "Dutka służy do poskromienia konia podczas zabiegów weterynaryjnych i w wielu wypadkach w ogóle umożliwia ich przeprowadzenie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 66,
+    "mode": "statements",
+    "text": "Jakie informacje powinny znajdować się w widocznym miejscu przy apteczce",
+    "options": [
+      {
+        "text": "Przy apteczce weterynaryjnej powinny znajdować się numery telefonów do lekarzy weterynarii opiekujących się poszczególnymi końmi lub całą stajnią oraz telefony do osoby odpowiedzialnej za konie (kierownik, właściciel itp.).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 67,
+    "mode": "statements",
+    "text": "Wymień przynajmniej cztery okolice ciała konia, których obserwacja może dostarczyć",
+    "options": [
+      {
+        "text": "Nadpęcie (przedniej i tylnej kończyny), staw pęcinowy, kopyto, grzbiet, okolice mostka, pęcina, staw skokowy (Plansza – str.",
+        "correct": true
+      },
+      {
+        "text": "91 „Akademii jeździeckiej”).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 68,
+    "mode": "statements",
+    "text": "Jakie zmiany na grzbiecie konia powinny wzbudzić Twój niepokój?",
+    "options": [
+      {
+        "text": "Wrażliwość na dotyk miejsc w okolicy kłębu i grzbietu, obrzęk tkanek, wysięk, otarcie skóry.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 69,
+    "mode": "statements",
+    "text": "Jakie zmiany chorobowe można stwierdzić dotykając i oglądając okolice ścięgien kończyn",
+    "options": [
+      {
+        "text": "Obrzęk i bolesność okolicy ścięgien (tzw. fajka), którym często towarzyszy kulawizna.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 70,
+    "mode": "statements",
+    "text": "Czy sposób pobierania paszy przez konia może świadczyć o jego chorobie?",
+    "options": [
+      {
+        "text": "Wszelkie zaburzenia apetytu mogą świadczyć o chorobie konia.",
+        "correct": true
+      },
+      {
+        "text": "Także sposób pobierania pokarmu może świadczyć o nieprawidłowościach, np. o ostrych krawędziach zębów, które raniąc wnętrze jamy ustnej utrudniają koniowi jedzenie.",
+        "correct": true
+      },
+      {
+        "text": "Potrzebna jest pomoc lekarza weterynarii, który spiłuje ostre krawędzie zębów specjalnym tarnikiem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 71,
+    "mode": "statements",
+    "text": "Jakie niepokojące zmiany można zauważyć oglądając kopyta konia?",
+    "options": [
+      {
+        "text": "Wszelkie pęknięcia i rozpadliny w ścianie puszki kopytowej powinny być zauważone i zgłoszone podkuwaczowi, który opiekuje się koniem.",
+        "correct": true
+      },
+      {
+        "text": "Strzałka kopyta może wykazywać objawy gnicia – rowek strzałki pogłębia się, jest wypełniony szaroczarną, cuchnącą mazią, występuje bolesność podczas czyszczenia strzałki.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 72,
+    "mode": "statements",
+    "text": "W którym miejscu występują zmiany związane z zapoprężeniem?",
+    "options": [
+      {
+        "text": "Zmiany związane z zapoprężeniem (obrzęk, bolesność, podwyższona ciepłota) występują w okolicy mostka konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 73,
+    "mode": "statements",
+    "text": "W którym miejscu najczęściej występuje gruda?",
+    "options": [
+      {
+        "text": "Gruda najczęściej występuje w zgięciu pęcinowym (tylna strona pęciny).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 74,
+    "mode": "statements",
+    "text": "W którym miejscu występuje zmiana zwana pipakiem?",
+    "options": [
+      {
+        "text": "Pipak to niebolesny obrzęk występujący na guzie piętowym stawu skokowego konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 75,
+    "mode": "statements",
+    "text": "Co oznacza, że koniowi gniją strzałki?",
+    "options": [
+      {
+        "text": "Gnicie strzałek polega na bakteryjnym rozkładzie gnilnym rogu strzałki kopytowej.",
+        "correct": true
+      },
+      {
+        "text": "Wynika ono najczęściej z braku higieny w boksie i braku czyszczenia kopyt.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 76,
+    "mode": "statements",
+    "text": "Podaj różnice pomiędzy nagwożdżeniem, a zagwożdżeniem.",
+    "options": [
+      {
+        "text": "Nagwożdżenie to przebicie podeszwy kopyta ostrym przedmiotem np. gwoździem, szkłem; w zależności od miejsca i głębokości nagwożdżenia, uszkodzeniu może ulec tworzywo kopyta, jak również struktury położone głębiej (ścięgno, staw, kość).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 77,
+    "mode": "statements",
+    "text": "Co to jest zagwożdżenie?",
+    "options": [
+      {
+        "text": "Zagwożdżenie to zbyt głębokie wbicie podkowiaka, który uciska, a niekiedy przebija warstwę rogotwórczą kopyta.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 78,
+    "mode": "statements",
+    "text": "Jak nazywamy narośl kostną na kościach kończyn konia?",
+    "options": [
+      {
+        "text": "Narośla kostne na kościach kończyn noszą nazwę nakostniaków.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 79,
+    "mode": "statements",
+    "text": "Jak inaczej określamy schorzenie nazywane chorobą poświąteczną i jakie są jego",
+    "options": [
+      {
+        "text": "Inna nazwa (fachowa) choroby poświątecznej to mięśniochwat porażenny.",
+        "correct": true
+      },
+      {
+        "text": "Najczęstsza przyczyna jest niezmniejszona dawka paszy treściwej w dni wolne od pracy, przeciążenie pracą lub przekarmienie – zbyt dużo białka.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 80,
+    "mode": "statements",
+    "text": "Wymień kilka najczęstszych objawów kolki (morzyska).",
+    "options": [
+      {
+        "text": "Niepokój konia, przyśpieszony oddech, pocenie się, pokładanie się, grzebanie przednimi kończynami, przybieranie nienaturalnych pozycji (np. siedzącego psa), częste tarzanie się, bicie po brzuchu tylnymi kończynami, częste oglądanie się na boki.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 81,
+    "mode": "statements",
+    "text": "Podaj punkty ucisku (oddziaływania) wędzidła w obrębie pyska konia.",
+    "options": [
+      {
+        "text": "Wędzidło działa na język, bezzębną krawędź żuchwy, na podniebienie i na kąty pyska konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 82,
+    "mode": "statements",
+    "text": "Wymień kilka, (co najmniej cztery) znanych Ci rodzajów wędzideł.",
+    "options": [
+      {
+        "text": "Wędzidło anatomiczne, wędzidło skórzane, wędzidło podwójnie łamane (z łącznikiem), wędzidło zwykłe, wędzidło oliwkowe, wędzidło policzkowe (z wąsami), wędzidło Pessoa (wielokrążek), wędzidło skokowe, wędzidło niełamane, wędzidło obrotowe, wędzidło przelotowe (cygańskie).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 83,
+    "mode": "statements",
+    "text": "W jaki sposób grubość wędzidła wpływa na siłę jego oddziaływania?",
+    "options": [
+      {
+        "text": "Wędzidło tym ostrzej działa, im jest cieńsze.",
+        "correct": true
+      },
+      {
+        "text": "Grube wędzidła działają łagodniej.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 84,
+    "mode": "statements",
+    "text": "W jaki sposób jeździec oddziałuje na wędzidło?",
+    "options": [
+      {
+        "text": "Jeździec działa na wędzidło dłońmi za pośrednictwem wodzy, które są przypięte do pierścieni wędzidła.",
+        "correct": true
+      },
+      {
+        "text": "Wodze stanowią zatem przedłużenie ręki jeźdźca, a nie uchwyt do trzymania się na koniu!",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 85,
+    "mode": "statements",
+    "text": "Wymień kilka (przynajmniej trzy) znane Ci rodzaje nachrapników.",
+    "options": [
+      {
+        "text": "Nachrapnik hanowerski, nachrapnik polski (angielski), nachrapnik kombinowany (irlandzki), nachrapnik meksykański (krzyżowy), nachrapnik Worcester, nachrapnik kabłąkowy.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 86,
+    "mode": "statements",
+    "text": "W jakim celu stosuje się nachrapniki?",
+    "options": [
+      {
+        "text": "Nachrapnik jest uzupełnieniem kiełzna, wyrównuje ustawienie górnej i dolnej szczęki konia oraz zapobiega otwieraniu przez konia pyska.",
+        "correct": true
+      },
+      {
+        "text": "Generalnie nachrapnik wspomaga działanie wędzidła poprzez przeniesienie nacisku na grzbiet nosa.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 87,
+    "mode": "statements",
+    "text": "Co to jest zaczep zatrzaskowy puśliska?",
+    "options": [
+      {
+        "text": "Zaczep służy do przypinania puśliska ze strzemieniem do siodła.",
+        "correct": true
+      },
+      {
+        "text": "Zatrzask (bezpiecznik) zaczepu musi być sprawny i naoliwiony, by w razie upadku jeźdźca uwolnił puślisko wraz ze strzemieniem, co zapobiega wleczeniu jeźdźca za nogę przez konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 88,
+    "mode": "statements",
+    "text": "Do czego służy czaprak?",
+    "options": [
+      {
+        "text": "Czaprak chroni grzbiet konia przed bezpośrednim naciskiem siodła, a także ochrania poduszki siodła przed niszczącym działaniem potu końskiego.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 89,
+    "mode": "statements",
+    "text": "Co to są bezpieczne strzemiona?",
+    "options": [
+      {
+        "text": "Bezpieczne strzemiona ułatwiają uwolnienie stopy jeźdźca w razie upadku.",
+        "correct": true
+      },
+      {
+        "text": "Istnieje kilka rodzajów takich strzemion, różniących się sposobem działania.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 90,
+    "mode": "statements",
+    "text": "Wymień kilka (przynajmniej trzy) znane Ci rodzaje siodeł.",
+    "options": [
+      {
+        "text": "Siodło sportowe, siodło western, siodło wojskowe, siodło turystyczne (rajdowe), siodło wyścigowe, siodło damskie, siodło dla kuców islandzkich.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 91,
+    "mode": "statements",
+    "text": "Wymień podstawowe typy siodła sportowego i podaj różnice w ich budowie.",
+    "options": [
+      {
+        "text": "Wśród siodeł sportowych wyróżniamy siodło ujeżdżeniowe, siodło skokowe i siodło wszechstronne (ogólnoużytkowe).",
+        "correct": true
+      },
+      {
+        "text": "Siodło ujeżdżeniowe leży blisko grzbietu konia i ma długie tybinki.",
+        "correct": true
+      },
+      {
+        "text": "Siodło skokowe ma długie, płaskie siedzisko, wysunięte do przodu tybinki i często dodatkowe poduszki kolanowe.",
+        "correct": true
+      },
+      {
+        "text": "Siodło wszechstronne to pośrednia forma obu wcześniej wymienionych siodeł, spełnia podstawowe wymagania jazdy ujeżdżeniowej, skokowej i pracy w terenie, najlepsze do podstawowego szkolenia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 92,
+    "mode": "statements",
+    "text": "Dlaczego sprzęt jeździecki wymaga regularnej konserwacji?",
+    "options": [
+      {
+        "text": "Sprzęt jeździecki jest drogi i jego trwałość zależy od regularnej pielęgnacji i czyszczenia.",
+        "correct": true
+      },
+      {
+        "text": "Ponadto dobry stan sprzętu ma ogromne znaczenie dla bezpieczeństwa jeźdźca.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 93,
+    "mode": "statements",
+    "text": "W jaki sposób konserwuje się części skórzane sprzętu jeździeckiego?",
+    "options": [
+      {
+        "text": "Skórzane części sprzętu należy porozpinać i umyć w letniej wodzie z dodatkiem mydła do skór (glicerynowego).",
+        "correct": true
+      },
+      {
+        "text": "Po umyciu wysuszyć na powietrzu i dokładnie natłuścić używając specjalnego oleju lub smaru do konserwacji skór.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 94,
+    "mode": "statements",
+    "text": "Jakie podstawowe elementy ekwipunku powinien posiadać każdy jeździec?",
+    "options": [
+      {
+        "text": "Odpowiednie spodnie do jazdy konnej (miękkie, bez szwów po wewnętrznej stronie nogawek), buty z gładką podeszwą i płaskim obcasem sięgające powyżej kostki (sztyblety) lub długie buty do jazdy konnej (tzw. oficerki), przylegające do ciała okrycie wierzchnie i ochronne nakrycie głowy z odpowiednim atestem bezpieczeństwa (kask, toczek).",
+        "correct": true
+      },
+      {
+        "text": "Ponadto należy posiadać bat do jazdy konnej (dł.",
+        "correct": true
+      },
+      {
+        "text": "110 – 120 cm; na zawodach - 110 cm) lub palcat (dł. ok.",
+        "correct": true
+      },
+      {
+        "text": "75 cm), wskazane są równie rękawiczki oraz sztylpy, używane do krótkich butów (sztybletów).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 95,
+    "mode": "statements",
+    "text": "Jakich butów nie należy używać do jazdy konnej?",
+    "options": [
+      {
+        "text": "Nieodpowiednie do jazdy konnej są półbuty, miękkie obuwie sportowe bez obcasa oraz buty z gruba zelówką i protektorem na podeszwie.",
+        "correct": true
+      },
+      {
+        "text": "Wszystkie te rodzaje obuwia stwarzają zagrożenie dla bezpieczeństwa jeźdźca.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 96,
+    "mode": "statements",
+    "text": "Co to jest kamizelka ochronna?",
+    "options": [
+      {
+        "text": "Kamizelka ochronna jest zalecanym wyposażeniem każdego jeźdźca podczas treningu skoków (na parkurze i w terenie) i ma za zadanie chronić korpus (klatkę piersiowa, narządy wewnętrzne) przed urazami w razie upadku z konia.",
+        "correct": true
+      },
+      {
+        "text": "Używanie kamizelki jest obowiązkowe w konkurencji WKKW (próba terenowa – pot. kros) oraz w konkursach dla dzieci na kucach.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 97,
+    "mode": "statements",
+    "text": "Czy osoby pełnoletnie mają prawo jeździć bez ochronnego nakrycia głowy?",
+    "options": [
+      {
+        "text": "Zgodnie z zasadami bezpieczeństwa każdy jeździec, bez względu na wiek i posiadane umiejętności powinien dosiadać konia wyłącznie w ochronnym nakryciu głowy.",
+        "correct": true
+      },
+      {
+        "text": "Odstępstwa od tej zasady i związane z tym urazy mogą skutkować odmową wypłaty instruktora odpowiedzialnego za prowadzenie zajęć w danym ośrodku. konsekwencjami odszkodowania prawnymi oraz dla",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 98,
+    "mode": "statements",
+    "text": "Co należy zrobić z długimi włosami podczas jazdy konnej?",
+    "options": [
+      {
+        "text": "Długie włosy ze względów bezpieczeństwa powinny być do jazdy związane lub zaplecione, ewentualnie ukryte pod toczkiem (kaskiem).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 99,
+    "mode": "statements",
+    "text": "Czy biżuteria może stanowić dodatkowy element stroju jeźdźca?",
+    "options": [
+      {
+        "text": "Jako dopuszczalnej biżuterii można używać jedynie spinki do plastronu (przy oficjalnym stroju jeździeckim) i spinek do mankietów koszuli.",
+        "correct": true
+      },
+      {
+        "text": "Inne ozdoby, zwłaszcza kolczyki, naszyjniki itp. mogą stwarzać dla jeźdźca dodatkowe zagrożenie podczas upadku z konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 100,
+    "mode": "statements",
+    "text": "Na co należy uważać, wieszając siodło na drzwiach boksu?",
+    "options": [
+      {
+        "text": "Siodła tak powieszonego nie należy pozostawiać bez nadzoru, gdyż konie często gryzą skórę i mogą zniszczyć sprzęt pozostawiony w zasięgu ich pyska.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 101,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Koniowi stojącemu w stanowisku lepiej najpierw założyć siodło, a w drugiej kolejności ogłowie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 102,
+    "mode": "statements",
+    "text": "Który element rzędu zakładamy najpierw koniowi, który stoi w boksie?",
+    "options": [
+      {
+        "text": "Koniowi stojącemu w boksie najpierw zakładamy ogłowie (kiełznamy go), a następnie przystępujemy do siodłania.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 103,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Dociągając popręg nie wolno wypuszczać z ręki wodzy ani przesuwać nogi za tybinkę, gdyż wówczas mimo woli uderzamy konia pietą po słabiźnie, co może sprowokować konia do gwałtowniejszych ruchów, które mogą być przyczyną upadku z konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 104,
+    "mode": "statements",
+    "text": "Czy prawidłowo dociągnięty popręg przeszkadza koniowi w oddychaniu?",
+    "options": [
+      {
+        "text": "Dzięki odpowiedniej budowie klatki piersiowej konia popręg nie przeszkadza w oddychaniu, gdy opiera się na mostku konia.",
+        "correct": true
+      },
+      {
+        "text": "Podczas oddychania obwód klatki piersiowej konia w miejscu przylegania popręgu nie zmienia się.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 105,
+    "mode": "statements",
+    "text": "",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 106,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Koń powinien być ustawiony równolegle do krótkiej ściany, na linii środkowej.",
+        "correct": true
+      },
+      {
+        "text": "Jakich błędów należy się wystrzegać podczas zsiadania z konia?",
+        "correct": true
+      },
+      {
+        "text": "Odpowiedź: Nie wolno wypuszczać wodzy z ręki i tracić w ten sposób nad koniem kontroli.",
+        "correct": true
+      },
+      {
+        "text": "Nie zaleca się zsiadać po strzemieniu (kolejność czynności odwrotna do wsiadania), gdyż grozi to wypadkiem w razie gwałtownego ruchu konia.",
+        "correct": true
+      },
+      {
+        "text": "Ponadto należy zachować bezpieczne odstępy od innych koni.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 107,
+    "mode": "statements",
+    "text": "Gdzie należy rozsiodływać konia?",
+    "options": [
+      {
+        "text": "Konia należy rozsiodływać w stajni, po wprowadzeniu do boksu lub stanowiska.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 108,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Przed wjazdem lub wejściem na ujeżdżalnię należy głośno zapytać „wejście wolne?” i dopiero po otrzymaniu odpowiedzi „wejście wolne” można wjechać lub wejść na plac lub na hale.",
+        "correct": true
+      },
+      {
+        "text": "Podobnie należy postąpić opuszczając ujeżdżalnię.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 109,
+    "mode": "statements",
+    "text": "Kto odpowiada za porządek i dyscyplinę na ujeżdżalni?",
+    "options": [
+      {
+        "text": "Za porządek na ujeżdżalni odpowiada szkoleniowiec prowadzący zajęcia (najwyższy ranga, jeżeli zajęcia prowadzi kilku instruktorów) lub w razie jego nieobecności – jeździec o najdłuższym stażu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 110,
+    "mode": "statements",
+    "text": "Kto może przebywać na ujeżdżalni podczas jazdy?",
+    "options": [
+      {
+        "text": "Na ujeżdżalni mogę przebywać jedynie jeźdźcy i szkoleniowiec prowadzący zajecia.",
+        "correct": true
+      },
+      {
+        "text": "Nikt inny nie ma prawa wchodzić na ujeżdżalnię.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 111,
+    "mode": "statements",
+    "text": "W którym miejscu na ujeżdżalni powinno odbywać się wsiadanie, zsiadanie i dociąganie",
+    "options": [
+      {
+        "text": "Wszystkie tego rodzaju czynności przeprowadza się na linii środkowej z końmi ustawionymi równolegle do krótkiej ściany, w bezpiecznych odstępach jeden od drugiego.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 112,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Minimalny bezpieczny odstęp od konia poprzedzającego lub mijanego to co najmniej 3 kroki (ok.",
+        "correct": true
+      },
+      {
+        "text": "2,5 metra).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 113,
+    "mode": "statements",
+    "text": "W jaki sposób wymijają się jeźdźcy poruszający się w przeciwnych kierunkach?",
+    "options": [
+      {
+        "text": "Jeźdźcy wymijają się na ujeżdżalni zawsze po lewej ręce (ruch prawostronny).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 114,
+    "mode": "statements",
+    "text": "W jakiej odległości od zbliżającego się konia powinien zjechać ze śladu jeździec ustępujący",
+    "options": [
+      {
+        "text": "Jeździec ustępujący pierwszeństwa powinien zjechać ze śladu najpóźniej w odległości ok.",
+        "correct": true
+      },
+      {
+        "text": "10 metrów, jeżeli obaj poruszają się stępem – wystarczy odległość ok.",
+        "correct": true
+      },
+      {
+        "text": "5 metrów.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 115,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Pierwszeństwo ma zawsze zastęp jeźdźców.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 116,
+    "mode": "statements",
+    "text": "W którym miejscu placu nie należy przechodzić do stępa i zatrzymywać się podczas jazdy",
+    "options": [
+      {
+        "text": "Zatrzymywanie i przechodzenie do stępa podczas jazdy kilku jeźdźców na ujeżdżalni jest zabronione na pierwszym śladzie, na całym obwodzie placu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 117,
+    "mode": "statements",
+    "text": "Co to jest „drugi ślad”?",
+    "options": [
+      {
+        "text": "Drugi ślad to linia biegnąca po obwodzie ujeżdżalni w odległości ok.",
+        "correct": true
+      },
+      {
+        "text": "2,5 m (trzech kroków) od ściany (bandy) ujeżdżalni (pierwszego śladu).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 118,
+    "mode": "statements",
+    "text": "Kto ma pierwszeństwo na ujeżdżalni?",
+    "options": [
+      {
+        "text": "Pierwszeństwo mają: jeźdźcy jadący na lewą rękę, jeźdźcy jadący wyższym chodem, jeźdźcy na pierwszym śladzie przed jeźdźcami wykonującymi inne figury, jeźdźcy jadący po liniach prostych przed jeźdźcami jadącymi po łukach (wężyk, serpentyna, koło).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 119,
+    "mode": "statements",
+    "text": "Czy jeźdźcy początkujący lub zaawansowani mają na ujeżdżalni jakieś szczególne",
+    "options": [
+      {
+        "text": "Wszystkich jeźdźców obowiązują te same zasady porządku i bezpieczeństwa.",
+        "correct": true
+      },
+      {
+        "text": "Nikt w czasie jazdy nie jest uprzywilejowany.",
+        "correct": true
+      },
+      {
+        "text": "Jeźdźcy bardziej doświadczeni powinni jednak zwracać uwagę na jeźdźców początkujących, którzy mają nieraz kłopoty z opanowaniem koni lub znajomością wszystkich zasad poruszania się po ujeżdżalni.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 120,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Jeźdźcy mogą jeździć indywidualnie (przestrzegając zasad pierwszeństwa i porządku) albo mogą jeździć w zastępie.",
+        "correct": true
+      },
+      {
+        "text": "W obu przypadkach o porządku jazdy decyduje instruktor lub najstarszy (stażem) jeździec.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 121,
+    "mode": "statements",
+    "text": "Na czym polega jazda w zastępie?",
+    "options": [
+      {
+        "text": "Jazda w zastępie polega na wykonywaniu ćwiczeń ujeżdżeniowych przez grupę jeźdźców.",
+        "correct": true
+      },
+      {
+        "text": "Za pierwszym (czołowym) koniem jadą kolejni jeźdźcy w odpowiednich odległościach, nakazanych przez instruktora.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 122,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Rozróżniamy następujące sposoby jazdy w zastępie: jazda na ogonach, jazda z określonymi odległościami, jazda w „podzieleniu” (czasem używane określenie „luzem” – przyp.",
+        "correct": true
+      },
+      {
+        "text": "MR), jazda dowolna.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 123,
+    "mode": "statements",
+    "text": "Na czym polega jazda „na ogonach”?",
+    "options": [
+      {
+        "text": "Jazda na ogonach odbywa się za jeźdźcem czołowym, konie poruszają się jeden za drugim, a odległość miedzy nimi wynosi ok.",
+        "correct": true
+      },
+      {
+        "text": "0,5 metra.",
+        "correct": true
+      },
+      {
+        "text": "Wszystkie komendy instruktora wykonuje się za jeźdźcem czołowym, jadąc jego śladem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 124,
+    "mode": "statements",
+    "text": "W jaki sposób jeździec może się zorientować, że jedzie jedną lub dwie długości konia",
+    "options": [
+      {
+        "text": "W przypadku jednej długości konia jeździec widzi pomiędzy uszami swojego konia stawy skokowe konia poprzedzającego, a w przypadku dwóch długości – widzi jego kopyta (tylnych kończyn).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 125,
+    "mode": "statements",
+    "text": "Na czym polega jazda „w podzieleniu”?",
+    "options": [
+      {
+        "text": "Jazda „w podzieleniu” polega na tym, że jeźdźcy dzielą równo obwód ujeżdżalni pomiędzy siebie, a wszystkie komendy instruktora wykonują równocześnie (nie za czołowym).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 126,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Jazda dowolna odbywa się w dowolnym kierunku, po całej ujeżdżalni.",
+        "correct": true
+      },
+      {
+        "text": "Najczęściej podawany jest rodzaj chodu, w którym powinny poruszać się wszystkie konie jeźdźcy musza przestrzegać zasad pierwszeństwa i bezpieczeństwa wobec siebie nawzajem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 127,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Mały czworobok o wymiarach 20 m x 40 m, a duży czworobok 20m x 60m.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 128,
+    "mode": "statements",
+    "text": "W jaki sposób oznacza się położenie punktów na czworoboku?",
+    "options": [
+      {
+        "text": "Do oznaczania punktów na czworoboku służą znaczniki (tabliczki, stojaki) z literami.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 129,
+    "mode": "statements",
+    "text": "Wymień podstawowe, najczęściej wykonywane figury na ujeżdżalni.",
+    "options": [
+      {
+        "text": "Cała ujeżdżalnia, wyjeżdżanie narożników, zmiany kierunku, wolta, półwolta, wężyk, serpentyna.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 130,
+    "mode": "statements",
+    "text": "Co to jest wolta i od czego zależy jej średnica?",
+    "options": [
+      {
+        "text": "Wolta jest to koło o średnicy od 10m do 6m (wymiary są podane od łatwiejszego do trudniejszego wykonania).",
+        "correct": true
+      },
+      {
+        "text": "Średnica wolty zależna jest od stopnia wyszkolenia konia i jeźdźca.",
+        "correct": true
+      },
+      {
+        "text": "Przed wydaniem polecania wykonania wolty instruktor powinien podać jej wymagana średnicę.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 131,
+    "mode": "statements",
+    "text": "Podaj średnicę dużego i małego koła.",
+    "options": [
+      {
+        "text": "Duże koło ma średnicę 20m, a małe koło – 10m.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 132,
+    "mode": "statements",
+    "text": "Podaj różnice pomiędzy wężykiem i serpentyna",
+    "options": [
+      {
+        "text": "Wężyk jest to figura wykonywana wzdłuż długiej ściany lub na linii środkowej lub na liniach ćwiartkowych.",
+        "correct": true
+      },
+      {
+        "text": "Przy pojedynczym wężyku na długiej ścianie maksymalna odległości od śladu wynosi 5m i wypada na środku długiej siany, a przy podwójnym wężyku 2,5m i wypada na wysokości 3m za punktami kół (w kierunku E lub B).",
+        "correct": true
+      },
+      {
+        "text": "Potrójny wężyk mona wykonać na linii środkowej lub na liniach ćwiartkowych, a na długich ścianach tylko na czworoboku o wymiarach 20 x 60 m (po 2,5 m od ściany).",
+        "correct": true
+      },
+      {
+        "text": "Serpentyna składa się z wielu, równo rozłożonych wzdłuż ujeżdżalni półkoli, stycznych do długich ścian i połączonych liniami prostymi.",
+        "correct": true
+      },
+      {
+        "text": "Serpentyna zaczyna i kończy się na smrodku krótkiej ściany w punktach A i C.",
+        "correct": true
+      },
+      {
+        "text": "Liczba wykonywanych zakrętów zależy od poziomu wyszkolenia konia i jeźdźca.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 133,
+    "mode": "statements",
+    "text": "Co powinno cechować każdego, kto chce być dobrym jeźdźcem?",
+    "options": [
+      {
+        "text": "Tylko ten, kto rozumie potrzeby konia, jego zachowanie i charakter, może właściwie współpracować z koniem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 134,
+    "mode": "statements",
+    "text": "Czy wyszkolenie jeźdźca ma znaczenie dla konia?",
+    "options": [
+      {
+        "text": "Tylko poprawnie wyszkolony jeździec gwarantuje koniowi bezpieczeństwo i zadowolenie oraz sprawia, że koń nabiera zaufania i chęci do współpracy.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 135,
+    "mode": "statements",
+    "text": "Co jest najważniejszym celem szkolenia jeździeckiego?",
+    "options": [
+      {
+        "text": "Najważniejszym celem szkolenia jest uzyskanie harmonii pomiędzy jeźdźcem i koniem, bez której nie ma prawidłowej jazdy konnej.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 136,
+    "mode": "statements",
+    "text": "Czy poczatkujący jeździec, którego interesuje ujeżdżenie może poprzestać jedynie na",
+    "options": [
+      {
+        "text": "Podstawowe wyszkolenie jeźdźca powinno być wszechstronne - ujeżdżenie, skoki, jazda w terenie.",
+        "correct": true
+      },
+      {
+        "text": "Za wczesna specjalizacja jest szkodliwa i ogranicza możliwości rozwoju zarówno jeźdźca jak i konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 137,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Dobrze ujeżdżony, doświadczony koń jest najlepszym nauczycielem dla początkującego jeźdźca.",
+        "correct": true
+      },
+      {
+        "text": "Pracę z młodymi końmi należy pozostawić jeźdźcom o większym doświadczeniu i umiejętnościach.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 138,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Wyróżniamy trzy zasadnicze rodzaje dosiadu: dosiad ujeżdżeniowy (zwany te podstawowym), półsiad i dosiad stiplowy.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 139,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Inna nazwa dosiadu ujeżdżeniowego to dosiad podstawowy.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 140,
+    "mode": "statements",
+    "text": "Przez które punkty ciała jeźdźca siedzącego poprawnie dosiadem podstawowym można",
+    "options": [
+      {
+        "text": "Jeździec siedzi prosto, tak, że można poprowadzić pionową linię od ucha poprzez bark, staw biodrowy i staw skokowy (w skrócie: bark, biodro, pięta).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 141,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "W dosiadzie podstawowym jeździec opiera stopy w strzemionach tuż przed najszerszym miejscem podeszwy.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 142,
+    "mode": "statements",
+    "text": "Która część ciała jeźdźca stanowi jego najniższy punkt?",
+    "options": [
+      {
+        "text": "Najniższym punktem ciała jeźdźca jest jego pięta, która opada ku dołowi dzięki elastycznemu, sprężynującemu stawowi skokowemu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 143,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Przedramiona jeźdźca powinny tworzyć z wodzami jedną linię prostą, biegnącą od łokcia poprzez dłoń do pyska konia.",
+        "correct": true
+      },
+      {
+        "text": "To zawsze linia prosta, widziana zarówno z boku, jak i z góry przez jeźdźca.",
+        "correct": true
+      },
+      {
+        "text": "Takie ułożenie rąk wymusza również szerokość rozstawienia dłoni, co jest niezbędne dla poprawnego i delikatnego działania wodzami.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 144,
+    "mode": "statements",
+    "text": "W jaki sposób powinny być ułożone łydki jeźdźca?",
+    "options": [
+      {
+        "text": "Łydki ustawione są od kolana w dół mniej lub bardziej skośnie ku tyłowi (w zależności od długości nóg jeźdźca), są lekko cofnięte i przyłożone do boków konia, utrzymując z nimi delikatny kontakt.",
+        "correct": true
+      },
+      {
+        "text": "Łydka leży nieco za tylną krawędzią popręgu, co pozwala jeźdźcowi zachować w linii pionowej bark, biodro i piętę.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 145,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Dłonie są swobodnie zamknięte w pięść.",
+        "correct": true
+      },
+      {
+        "text": "Kciuki, lekko skierowane do zapobiegają spoczywają na wodzach rodzaj daszka tworząc wewnątrz, i niekontrolowanemu wysuwaniu się wodzy.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 146,
+    "mode": "statements",
+    "text": "Wymień najczęstsze błędy dosiadu?",
+    "options": [
+      {
+        "text": "Najczęściej spotykane błędy to ogólny brak rozluźnienia mięśni, podciąganie kolan i piet do góry, klepiące łydki, sztywna, zablokowana ręka, garbienie się.",
+        "correct": true
+      },
+      {
+        "text": "W dosiadzie fotelowym siedzenie nie znajduje się w najgłębszym punkcie siodła, gdyż zbytnio przesuwa się do tyłu.",
+        "correct": true
+      },
+      {
+        "text": "Na skutek tego uda i kolana podciągają się w górę.",
+        "correct": true
+      },
+      {
+        "text": "Błąd ten jest z reguły wynikiem zbyt krótkich strzemion, stałej jazdy w siodle skokowym lub w siodle, którego najgłębszy punkt jest przesunięty za bardzo do tyłu.",
+        "correct": true
+      },
+      {
+        "text": "W dosiadzie widłowym ciężar jeźdźca spoczywa zbytnio na udach i pachwinach.",
+        "correct": true
+      },
+      {
+        "text": "Kości kulszowe są odciążone, łydki uciekają do tyłu, a kręgosłup często jest wklęsły.",
+        "correct": true
+      },
+      {
+        "text": "Przyczyną tego błędu są zwykle zbyt długie strzemiona lub siodło, którego najgłębszy punkt znajduje się za bardzo z przodu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 147,
+    "mode": "statements",
+    "text": "Dlaczego nie należy się garbić na koniu?",
+    "options": [
+      {
+        "text": "Zgarbienie pleców pociąga za sobą cały szereg innych błędów i jest jedna z cech dosiadu fotelowego.",
+        "correct": true
+      },
+      {
+        "text": "Powoduje to miedzy innymi zbytnie przesuwanie łydek do przodu oraz „wiszenie” na wodzach, co utrudnia lub uniemożliwia prawidłowe powodowanie koniem.",
+        "correct": true
+      },
+      {
+        "text": "Ponadto jeździec poprzez brak rozluźnienia w lędźwiowej partii kręgosłupa nie jest w stanie podążać za ruchem konia, co jest warunkiem równowagi.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 148,
+    "mode": "statements",
+    "text": "Podaj przyczyny błędów dosiadu?",
+    "options": [
+      {
+        "text": "Przyczynami błędów dosiadu może być: brak rozluźnienia jeźdźca, brak poczucia rytmu, przyswojenie błędnych podstaw i złe nawyki, nieprawidłowo dopasowana długość puślisk, wady postawy jeźdźca, nieodpowiednie siodło (źle skonstruowane lub źle „wysiedziane”), brak korekty ze strony instruktora.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 149,
+    "mode": "statements",
+    "text": "Czy dopasowanie długości puślisk ma znaczenie dla poprawnego dosiadu?",
+    "options": [
+      {
+        "text": "Poprawne dopasowanie puślisk ma bardzo duże znaczenie w poprawnym dosiadzie.",
+        "correct": true
+      },
+      {
+        "text": "Zbyt długie lub zbyt krótkie powodują usztywnienie i brak stabilnego dosiadu, nierównej długości dodatkowo powodują asymetrie dosiadu (krzywe siedzenie na koniu).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 150,
+    "mode": "statements",
+    "text": "Opisz półsiad.",
+    "options": [
+      {
+        "text": "Jeździec zgina się w biodrach do przodu.",
+        "correct": true
+      },
+      {
+        "text": "Jego ciężar przejmuje mocniej udo, kolano, stopa.",
+        "correct": true
+      },
+      {
+        "text": "Przy nieznacznym odciążeniu siedzenie pozostaje jak najbliżej siodła.",
+        "correct": true
+      },
+      {
+        "text": "W wyższym tempie, w skokach i przy odpowiednio większym odciążeniu, siedzenie oddala się bardziej od siodła, a tułów przybliża się bardziej do szyi konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 151,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "W kłusie anglezowanym jeździec nie wysiaduje każdego kroku konia, lecz znajdując oparcie na kolanach i strzemionach, unosi się na jeden krok w siodle, by w następnym znów miękko w nie powrócić.",
+        "correct": true
+      },
+      {
+        "text": "Ponieważ kłus jest chodem dwutaktowym, jeździec musi także zachować ten rytm.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 152,
+    "mode": "statements",
+    "text": "Czy jazda kłusem anglezowanym jest właściwa dla poczatkujących jeźdźców?",
+    "options": [
+      {
+        "text": "Tak, gdyż umożliwia niedoświadczonym jeźdźcom stosunkowo łatwe dostosowanie się do ruchów konia.",
+        "correct": true
+      },
+      {
+        "text": "Jazda kłusem anglezowanym jest mniej męcząca dla jeźdźca i zmniejsza wpływ jego ciężaru na grzbiet konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 153,
+    "mode": "statements",
+    "text": "Wymień najczęstsze błędy popełniane podczas jazdy kłusem anglezowanym.",
+    "options": [
+      {
+        "text": "Zbyt aktywne wstawanie z siodła i wysokie unoszenie siedzenia, zbyt mocne pochylanie się do przodu, siedzenie wysunięte do tyłu, odstawianie łydek w czasie unoszenia się z siodła, niespokojna ręka działająca w rytm kłus, utrata kontaktu z pyskiem konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 154,
+    "mode": "statements",
+    "text": "Co oznacza pojęcie „zmiana nogi w kłusie anglezowanym”?",
+    "options": [
+      {
+        "text": "Jeździec unosi się w trakcie wykroku przekątnej pary kończyn, a wiec np. prawej tylnej z lewą przednią i elastycznie powraca w siodło podczas wykroku następnej pary.",
+        "correct": true
+      },
+      {
+        "text": "Aby symetrycznie rozłożyć obciążenie na obie pary przekątne kończyn należy zmieniać parę, na która się siada w siodło.",
+        "correct": true
+      },
+      {
+        "text": "W tym celu jeździec pozostaje w siodle dwa kroki i rozpoczyna anglezowanie na przeciwległą parę kończyn.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 155,
+    "mode": "statements",
+    "text": "Na która nogę należy anglezować jadąc na ujeżdżalni lub po łukach?",
+    "options": [
+      {
+        "text": "Jeździec powinien siadać na wewnętrzną tylną kończynę konia (a wiec zewnętrzna przednia).",
+        "correct": true
+      },
+      {
+        "text": "Przy każdej zamianie kierunku należy zmienić nogę.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 156,
+    "mode": "statements",
+    "text": "Co to są pomoce jeździeckie?",
+    "options": [
+      {
+        "text": "Pomoce porozumiewa się z koniem, a wiec: ciężar, łydki i wodze (ręka). jeździeckie to środki, za pośrednictwem których jeździec",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 157,
+    "mode": "statements",
+    "text": "Wymień naturalne pomoce jeździeckie.",
+    "options": [
+      {
+        "text": "Naturalne pomoce jeździeckie to ciężar jeźdźca, łydki i wodze (ręka).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 158,
+    "mode": "statements",
+    "text": "Które z naturalnych pomocy",
+    "options": [
+      {
+        "text": "Działanie aktywizujące maja łydki i ciężar, zaś działanie wstrzymujące mają wodze.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 159,
+    "mode": "statements",
+    "text": "Czy naturalne pomoce jeździeckie działają oddzielnie, czy też współdziałają ze sobą?",
+    "options": [
+      {
+        "text": "Naturalne pomoce jeździeckie, tj. dosiad (ciężar), łydki i wodze, zawsze współdziałają ze sobą, tzn. zawsze oddziałują na konia równocześnie.",
+        "correct": true
+      },
+      {
+        "text": "Zastosowanie jednego z tych elementów bez pozostałych nie da pożądanego rezultatu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 160,
+    "mode": "statements",
+    "text": "W jaki sposób oddziałuje na konia ciężar jeźdźca?",
+    "options": [
+      {
+        "text": "Ciężar jest pomocą aktywizująca.",
+        "correct": true
+      },
+      {
+        "text": "Jeździec może oddziaływać na konia ciężarem obciążając obustronnie, obciążając jednostronnie oraz odciążając.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 161,
+    "mode": "statements",
+    "text": "Na czym polega tzw. „napinanie krzyża”?",
+    "options": [
+      {
+        "text": "„Napięcie krzyża” polega na chwilowym napięciu mięśni brzucha i dolnych mięśni pleców przy zachowaniu elastyczności dosiadu.",
+        "correct": true
+      },
+      {
+        "text": "Wzmacnia to aktywizujące oddziaływanie ciężaru.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 162,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Rozróżnia się łydkę aktywizującą – odpowiada ona za ruch do przodu, łydkę przesuwającą – aktywizuje ona ruch do przodu i w bok, oraz ograniczającą – kontrolującą reakcje konia na pomoce przesuwające.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 163,
+    "mode": "statements",
+    "text": "W którym miejscu powinna naciskać łydka aktywizująca?",
+    "options": [
+      {
+        "text": "Łydka aktywizująca naciska tuż za popręgiem i jest ułożona tak, że przez bark, biodro i piętę jeźdźca można poprowadzić pionową linię.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 164,
+    "mode": "statements",
+    "text": "W którym miejscu powinna oddziaływać łydka przesuwająca?",
+    "options": [
+      {
+        "text": "Łydka przesuwająca naciska na bok konia i jest cofnięta na szerokość dłoni w stosunku do położenia łydki popędzającej.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 165,
+    "mode": "statements",
+    "text": "Czy łydka przesuwająca i ograniczająca leżą w tym samym miejscu?",
+    "options": [
+      {
+        "text": "Tak, położenie łydki przesuwającej i ograniczającej jest takie samo.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 166,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Zadaniem łydki ograniczającej (kontrolującej) jest ograniczenie ruchu zadu w bok lub zapobieganie wypadania zadem na zewnątrz w stosunku do kierunku ruchu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 167,
+    "mode": "statements",
+    "text": "W jakich okolicznościach łydka działa uderzeniem (kopnięciem) na boki konia?",
+    "options": [
+      {
+        "text": "Łydki jeźdźca NIGDY nie mogę kopać ani uderzać boków konia, a jedynie spokojnie naciskać.",
+        "correct": true
+      },
+      {
+        "text": "W uzasadnionych okolicznościach możliwe jest działanie w formie impulsu, ale bez odrywania łydek od boków konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 168,
+    "mode": "statements",
+    "text": "Opisz prawidłowy sposób trzymania wodzy.",
+    "options": [
+      {
+        "text": "Wodze – nieposkręcane, równej długości – trzyma się pomiędzy małym i serdecznym palcem.",
+        "correct": true
+      },
+      {
+        "text": "Spięte końcówki wodzy zwisają w dół z prawej strony końskiej szyi (zwyczajowo).",
+        "correct": true
+      },
+      {
+        "text": "Ręka jest zamknięta.",
+        "correct": true
+      },
+      {
+        "text": "Daszkowato ustawione kciuki lekko przyciskają wodze do palców wskazujących, żeby wodze się nie wysuwały.",
+        "correct": true
+      },
+      {
+        "text": "Ręce należy trzymać na takiej wysokości, żeby przedramię i wodza tworzyły linie prostą.",
+        "correct": true
+      },
+      {
+        "text": "Rozstaw dłoni jest zależny od grubości szyi konia, ponieważ linia przedramię – wodza (widziana z góry) musi być również prosta.",
+        "correct": true
+      },
+      {
+        "text": "Dłonie ustawione tak, by ich wewnętrzna strona była równoległa do szyi konia – pięści pionowo, góra zwrócona lekko do siebie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 169,
+    "mode": "statements",
+    "text": "",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 170,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Wodzami wolno działać jedynie w powiazaniu z oddziaływaniem łydek i ciężaru.",
+        "correct": true
+      },
+      {
+        "text": "Jakie są rodzaje oddziaływania wodzami?",
+        "correct": true
+      },
+      {
+        "text": "Odpowiedź: Wodza może: ustępować (oddawać), wstrzymywać, przytrzymywać, ograniczać, wskazywać kierunek w bok.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 171,
+    "mode": "statements",
+    "text": "Na czym polega wstrzymujące działanie wodzy?",
+    "options": [
+      {
+        "text": "Wstrzymujące działanie wodzy polega na chwilowym, zależnym od potrzeby mocniejszym przymknięciu ręki i lekkim skierowaniu nadgarstków do wewnątrz.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 172,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Po każdym działaniu wstrzymującym musi nastąpić odpuszczenie.",
+        "correct": true
+      },
+      {
+        "text": "Chodzi o to, by działanie wstrzymujące nie przeszło w ciągniecie za wodze wstecz, a powtarzało się naprzemiennie z odpuszczeniem, aż do uzyskania pożądanego skutku.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 173,
+    "mode": "statements",
+    "text": "W jaki sposób działa wodza wskazująca kierunek w bok?",
+    "options": [
+      {
+        "text": "Wodza działająca w ten sposób pokazuje koniowi kierunek ruchu.",
+        "correct": true
+      },
+      {
+        "text": "Jeździec odprowadza wewnętrzna rękę nieco w bok od szyi konia (do wewnątrz), w celu skierowania głowy i szyi konia w kierunku ruchu.",
+        "correct": true
+      },
+      {
+        "text": "Wodza zewnętrzna pozostaje na swoim miejscu, ograniczając ruch do wewnątrz.",
+        "correct": true
+      },
+      {
+        "text": "W efekcie dłonie jeźdźca leżą nieco szerzej, niż podczas jazdy na wprost.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 174,
+    "mode": "statements",
+    "text": "Na czym polegają najczęstsze błędy w używaniu pomocy wynikające z natury jeźdźca?",
+    "options": [
+      {
+        "text": "Najczęstszym błędem jest nadużywanie wodzy, związane z tym, że człowiek zawsze próbuje osiągnąć oczekiwany rezultat przede wszystkim za pomocą rąk.",
+        "correct": true
+      },
+      {
+        "text": "Tymczasem podczas poprawnego kierowania koniem powinny dominować łydki i ciężar jeźdźca, a wodze winny działać możliwie subtelnie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 175,
+    "mode": "statements",
+    "text": "Na czym polega wyczucie jeździeckie?",
+    "options": [
+      {
+        "text": "Wyczucie jeździeckie polega na umiejętności dostosowania siły i precyzji prawidłowo używanych pomocy w zależności od energii i szybkości reakcji dosiadanego konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 176,
+    "mode": "statements",
+    "text": "Wymień pomocnicze środki służące do porozumiewania się z koniem.",
+    "options": [
+      {
+        "text": "Środki pomocnicze to głos, bat i ostrogi.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 177,
+    "mode": "statements",
+    "text": "Do czego służą środki pomocnicze?",
+    "options": [
+      {
+        "text": "Środki pomocnicze służą do lepszego porozumienia się z koniem lub wzmocnienia pomocy jeździeckich.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 178,
+    "mode": "statements",
+    "text": "Na jaka cechę głosu konie reagują najbardziej?",
+    "options": [
+      {
+        "text": "Najważniejszą cechą głosu, na którą reagują konie jest jego ton.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 179,
+    "mode": "statements",
+    "text": "",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 180,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Głos jest środkiem pomocniczym, który przede wszystkim wzmacnia zaufanie konia.",
+        "correct": true
+      },
+      {
+        "text": "Jaka jest różnica pomiędzy batem ujeżdżeniowym a palcatem?",
+        "correct": true
+      },
+      {
+        "text": "Odpowiedź: Bat ujeżdżeniowy ma długość 110cm wraz z końcówką, palcat skokowy ma długość do 75cm wraz z końcówką (zazwyczaj klapką) – są to wymiary dozwolone podczas zawodów.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 181,
+    "mode": "statements",
+    "text": "W którym miejscu działamy zazwyczaj na konia batem?",
+    "options": [
+      {
+        "text": "Najczęściej używa się bata tuż za łydką (wspomaga popędzające działanie łydki) lub po łopatce – wspomaga wtedy pomoce przesuwające lub ograniczające.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 182,
+    "mode": "statements",
+    "text": "Do czego są potrzebne jeźdźcowi ostrogi?",
+    "options": [
+      {
+        "text": "Ostrogi potrzebne są do chwilowego wzmocnienia działania łydek.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 183,
+    "mode": "statements",
+    "text": "Kto może używać ostróg?",
+    "options": [
+      {
+        "text": "Ostrogi mogą być używane tylko przez zrównoważony dosiad i nauczyli się kontrolować ruchy swoich łydek. jeźdźców, którzy osiągnęli",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 184,
+    "mode": "statements",
+    "text": "Co oznacza pojęcie „kontakt”?",
+    "options": [
+      {
+        "text": "Pojęcie kontaktu oznacza zrównoważone oddziaływanie na konia pomocy naturalnych: ciężaru, łydek i wodzy.",
+        "correct": true
+      },
+      {
+        "text": "Wynika z tego elastyczna łączność pomiędzy ręką jeźdźca, a pyskiem konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 185,
+    "mode": "statements",
+    "text": "Co oznacza pojęcie „koń postawiony na wodzy”?",
+    "options": [
+      {
+        "text": "Koń, który chętnie przyjmuje kontakt, ustępuje od wodzy i daje jeźdźcowi w zatrzymaniu oraz w ruchu poczucie stałej i miękkiej łączności miedzy ręka a pyskiem, jest „postawiony na wodzy”.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 186,
+    "mode": "statements",
+    "text": "Co oznacza pojęcie „jazda na długiej wodzy”?",
+    "options": [
+      {
+        "text": "Koń porusza się na długiej wodzy, gdy ustawienie szyi odpowiada naturalnemu, a równocześnie zostaje zachowany kontakt z ręką jeźdźca.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 187,
+    "mode": "statements",
+    "text": "Co oznacza pojęcie „jazda na swobodnej wodzy”?",
+    "options": [
+      {
+        "text": "Koń idzie na swobodnej wodzy, kiedy brak jest kontaktu ręki jeźdźca z pyskiem konia.",
+        "correct": true
+      },
+      {
+        "text": "Jeździec może trzymać wodze za sprzączkę.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 188,
+    "mode": "statements",
+    "text": "Co to jest „półparada”?",
+    "options": [
+      {
+        "text": "Półparada to krótkie, mocniejsze zamkniecie konia pomiędzy pomocami ciężaru, łydek i wodzy.",
+        "correct": true
+      },
+      {
+        "text": "Półparada nie jest działaniem jednorazowym, lecz jest powtarzana w rytm ruchu, dopóki nie spełni swojego zadania.",
+        "correct": true
+      },
+      {
+        "text": "Półparady stosujemy aby wykonać przejście z jednego chodu do drugiego, skrócić bądź wyregulować tempo danego chodu, zwiększyć uwagę konia przed nowym ćwiczeniem, poprawić lub utrzymać postawę i zebranie w trakcie ruchu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 189,
+    "mode": "statements",
+    "text": "Co to jest „parada”?",
+    "options": [
+      {
+        "text": "Jest to seria półparad, w rezultacie której osiąga się zatrzymanie konia.",
+        "correct": true
+      },
+      {
+        "text": "Może być wykonana z dowolnego chodu i tylko na linii prostej.",
+        "correct": true
+      },
+      {
+        "text": "Jest przygotowana przez półparady i zawsze prowadzi do zatrzymania.",
+        "correct": true
+      },
+      {
+        "text": "Pomoce są takie same jak w półparadach, z tym, że ostateczne zatrzymanie osiąga się „dojeżdżając” konia przez moment ciężarem i łydkami na zamkniętę rękę.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 190,
+    "mode": "statements",
+    "text": "Czy przy zatrzymaniu wodza działa wstecz?",
+    "options": [
+      {
+        "text": "Podczas wykonywania parady w żadnym wypadku wodza nie może działać wstecz, tzn. jeździec nigdy nie ciągnie za wodze.",
+        "correct": true
+      },
+      {
+        "text": "Wstrzymujące działanie wodzy osiąga się poprzez zamkniecie ręki.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 191,
+    "mode": "statements",
+    "text": "Co oznacza pojęcie „ustawienie”?",
+    "options": [
+      {
+        "text": "Ustawienie oznacza, że koń lekko skręca głowę w bok w stawach łączących głowę z szyja, czyli w „potylicy”.",
+        "correct": true
+      },
+      {
+        "text": "Szyja w ustawieniu jest tylko nieznacznie wygięta.",
+        "correct": true
+      },
+      {
+        "text": "Pozostała część osi podłużnej konia jest prosta i nie bierze udziału w ustawieniu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 192,
+    "mode": "statements",
+    "text": "Co oznacza pojęcie „zgięcie”?",
+    "options": [
+      {
+        "text": "Pod pojęciem zgięcia należy rozumieć wygięcie całego ciała konia na jego osi podłużnej.",
+        "correct": true
+      },
+      {
+        "text": "W efekcie ciało zgiętego konia widziane z góry stanowi wycinek łuku, po którym zwierzę się porusza.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 193,
+    "mode": "statements",
+    "text": "Opisz pomoce do prawidłowej jazdy po łuku.",
+    "options": [
+      {
+        "text": "Ramiona jeźdźca są równoległe do łopatek konia, biodra jeźdźca są równoległe do bioder konia.",
+        "correct": true
+      },
+      {
+        "text": "Wewnętrzna łydka aktywizuje wewnętrzną tylną kończynę konia, zewnętrzna łydka leży o dłoń za popręgiem i działając ograniczająco zapobiega wypadaniu zadem.",
+        "correct": true
+      },
+      {
+        "text": "Wewnętrzna kość siedzeniowa jeźdźca jest bardziej obciążona.",
+        "correct": true
+      },
+      {
+        "text": "Wewnętrzna wodza zapewnia miękkie ustawienie i wprowadza konia w zakręt, zewnętrzna wodza działa ograniczająco.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 194,
+    "mode": "statements",
+    "text": "W którę stronę powinien być zgięty koń idący po łuku w lewo?",
+    "options": [
+      {
+        "text": "Koń idący po łuku w lewo powinien być zgięty w lewo, zgięcie powinno zawsze być zgodne z kierunkiem i promieniem łuku, po którym koń się porusza.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 195,
+    "mode": "statements",
+    "text": "Którą kość siedzeniową (kulszową) jeździec bardziej obciąża na zakręcie?",
+    "options": [
+      {
+        "text": "Na zakręcie jeździec obciąża bardziej wewnętrzna kość siedzeniową.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 196,
+    "mode": "statements",
+    "text": "Wymień podstawowe chody konia?",
+    "options": [
+      {
+        "text": "Podstawowe chody konia to stęp, kłus i galop.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 197,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "W stępie słyszalne są cztery takty.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 198,
+    "mode": "statements",
+    "text": "Podaj kolejność stawiania kończyn przez konia w stępie.",
+    "options": [
+      {
+        "text": "Np. lewa tylna, lewa przednia, prawa tylna, prawa przednia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 199,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Rozróżniamy cztery rodzaje stępa: stęp swobodny, pośredni, wyciągnięty i zebrany.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 200,
+    "mode": "statements",
+    "text": "Opisz pomoce stosowane do ruszania stępem ze „stój”.",
+    "options": [
+      {
+        "text": "Obustronne działanie ciężarem i łydkami pobudza stojącego konia do ruchu naprzód, ustępująca wodza na miękkim kontakcie umożliwia ruch.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 201,
+    "mode": "statements",
+    "text": "Opisz pomoce stosowane w ruchu podczas jazdy stępem.",
+    "options": [
+      {
+        "text": "Jeździec podąża w rozluźnieniu za ruchem konia, łydki utrzymują miękki kontakt z bokami konia, ręka jeźdźca, jego stawy barkowe i łokciowe akceptują lekko potakujący ruch szyi i głowy konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 202,
+    "mode": "statements",
+    "text": "Podaj krótką charakterystykę kłusa.",
+    "options": [
+      {
+        "text": "Kłus jest dynamicznym chodem dwutaktowym, z momentem zawieszenia.",
+        "correct": true
+      },
+      {
+        "text": "Koń odrywa równocześnie od ziemi i stawia przekątne pary kończyn.",
+        "correct": true
+      },
+      {
+        "text": "Moment zawieszenia powstaje pomiędzy postawieniem na podłożu kolejnej pary kończyn.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 203,
+    "mode": "statements",
+    "text": "Opisz sposób stawiania przez konia kończyn w kłusie.",
+    "options": [
+      {
+        "text": "Koń opiera się na podłożu przekątna para kończyn: np. prawa tylna – lewa przednia, odbija się i na moment powstaje faza zawieszenia.",
+        "correct": true
+      },
+      {
+        "text": "Następnie stawia przeciwstawna parę przekątnych (lewa tylna – prawa przednia) i ponownie po odbiciu z tej pary powstaje faza zawieszenia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 204,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Wyróżnia się cztery rodzaje kłusa: kłus roboczy, pośredni, zebrany i wyciągnięty.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 205,
+    "mode": "statements",
+    "text": "",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 206,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Obustronne działanie ciężaru i obu łydek pobudza konia do ruchu naprzód, ustępująca wodza na miękkim kontakcie umożliwia ruch.",
+        "correct": true
+      },
+      {
+        "text": "Pomoce nieco silniejsze, niż przy ruszaniu stępem.",
+        "correct": true
+      },
+      {
+        "text": "Jakie pomoce stosujemy podczas jazdy kłusem?",
+        "correct": true
+      },
+      {
+        "text": "Odpowiedź: Podczas jazdy kłusem umiarkowanie napinany i rozluźniamy „krzyż”, a aktywne pomoce czuwają nad utrzymaniem dynamicznych i rytmicznych kroków.",
+        "correct": true
+      },
+      {
+        "text": "Wodze utrzymują stale elastyczny, miękki kontakt z pyskiem konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 207,
+    "mode": "statements",
+    "text": "Podaj cechy charakterystyczne galopu.",
+    "options": [
+      {
+        "text": "Galop jest dynamicznym chodem trzytaktowym.",
+        "correct": true
+      },
+      {
+        "text": "Po każdym skoku galopu (tzw. „foule”) następuje faza zawieszenia (lotu).",
+        "correct": true
+      },
+      {
+        "text": "Rozróżnia się galop z prawej nogi i z lewej nogi.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 208,
+    "mode": "statements",
+    "text": "Co to jest „foule”?",
+    "options": [
+      {
+        "text": "Foule – potocznie: fula – to pojedynczy skok w galopie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 209,
+    "mode": "statements",
+    "text": "Podaj kolejność stawiania kończyn podczas galopu z prawej nogi?",
+    "options": [
+      {
+        "text": "Koń stawia na ziemi lewa tylna kończynę, następnie równocześnie przekątne prawa tylna – lewa przednia i kolejno prawa przednia, po czym następuje faza zawieszenia (lotu).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 210,
+    "mode": "statements",
+    "text": "Na którą nogę należy galopować jadąc po ujeżdżalni w lewo?",
+    "options": [
+      {
+        "text": "Jadąc w lewo należy galopować z lewej nogi.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 211,
+    "mode": "statements",
+    "text": "Opisz w skrócie pomoce potrzebne do zagalopowania z prawej nogi.",
+    "options": [
+      {
+        "text": "Najpierw należy przygotować konia poprzez półparady, następnie obciążyć bardziej wewnętrzną, prawą kość siedzeniową.",
+        "correct": true
+      },
+      {
+        "text": "Prawa łydka, leżąca przy popręgu, aktywizuje ruch do przodu, prawa wodza nadaje ustawienie konia w prawo, a lewa zewnętrzna wodza ogranicza ustawienie.",
+        "correct": true
+      },
+      {
+        "text": "Lewą łydkę należy przesunąć na szerokość dłoni za popręg.",
+        "correct": true
+      },
+      {
+        "text": "W momencie zagalopowania jeździec poprzez lekko ustępujące wodze, zwłaszcza wewnętrzną, pozwala na wykonanie przez konia nieskrepowanego skoku galopu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 212,
+    "mode": "statements",
+    "text": "",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 213,
+    "mode": "statements",
+    "text": "",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 214,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Za prawidłowy galop odpowiedzialne jest poprawne położenie łydek.",
+        "correct": true
+      },
+      {
+        "text": "W każdym skoku galopu jeździec siedzi tak, jakby chciał ponownie zagalopować.",
+        "correct": true
+      },
+      {
+        "text": "Jakie rozróżnia się rodzaje galopu?",
+        "correct": true
+      },
+      {
+        "text": "Odpowiedź: Rozróżnia się cztery rodzaje galopu: galop roboczy, galop pośredni, galop zebrany i galop wyciągnięty.",
+        "correct": true
+      },
+      {
+        "text": "Jaki warunki jeździec musi spełnić, by rozpocząć naukę skoków przez przeszkody?",
+        "correct": true
+      },
+      {
+        "text": "Odpowiedź: Przed rozpoczęciem nauki skoków przez przeszkody jeździec musi mieć opanowany na bazie dosiadu podstawowego zrównoważony półsiad, umieć przyjmować różne stopnie odciążenia oraz musi umieć prowadzić konia na pomocach w półsiadzie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 215,
+    "mode": "statements",
+    "text": "Wymień rodzaje przeszkód parkurowych.",
+    "options": [
+      {
+        "text": "Przeszkody pionowe – np. stacjonata, mur; przeszkody wysoko–szerokie – okser, triplebar i przeszkody szerokie - rów z wodą.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 216,
+    "mode": "statements",
+    "text": "Co to jest szereg przeszkód?",
+    "options": [
+      {
+        "text": "Szereg pojedynczych przeszkód, pomiędzy którymi koń wykonuje 1 lub 2 skoki galopu (7-12m).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 217,
+    "mode": "statements",
+    "text": "Co to jest linia przeszkód?",
+    "options": [
+      {
+        "text": "Linia to dwie przeszkody, pomiędzy którymi koń musi wykonać 3, 4, 5 lub 6 skoków galopu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 218,
+    "mode": "statements",
+    "text": "Co to jest ustawienie przeszkód na skok-wyskok?",
+    "options": [
+      {
+        "text": "Jest to ustawienie 2 przeszkód w taki sposób, aby koń nie wykonał pomiędzy nimi skoku galopu, ale po wylądowaniu po pierwszej przeszkodzie natychmiast odbił się energicznie na następną.",
+        "correct": true
+      },
+      {
+        "text": "Tak ustawione przeszkody mogą stanowić część szeregu gimnastycznego.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 219,
+    "mode": "statements",
+    "text": "Kto może brać udział w konnych wyjazdach w teren?",
+    "options": [
+      {
+        "text": "W konnych wyjazdach w teren mogą brać udział ci, którzy opanowali podstawy dosiadu, zarówno ujeżdżeniowego jak i półsiadu, oraz potrafią pewnie działać pomocami.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 220,
+    "mode": "statements",
+    "text": "Którzy jeźdźcy mogą poruszać się konno po drogach publicznych?",
+    "options": [
+      {
+        "text": "Po drogach publicznych mogą poruszać się jedynie jeźdźcy znający zasady ruchu drogowego oraz konie oswojone z ruchem pojazdów.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 221,
+    "mode": "statements",
+    "text": "",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 222,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "We wszystkich w/w sytuacjach należy przejść do stępa i mijać te osoby ostrożnie stępem w bezpiecznej odległości.",
+        "correct": true
+      },
+      {
+        "text": "Jak należy się przygotować do jazdy po zmroku?",
+        "correct": true
+      },
+      {
+        "text": "Odpowiedź: Spodziewając się jazdy po zmroku należy zabrać ze sobą specjalne latarki ze światłem pozycyjnym (białe do przodu, czerwone do tyłu) mocowane do lewej łydki lub lewego ramienia jeźdźca.",
+        "correct": true
+      },
+      {
+        "text": "Wskazane jest również posiadanie elementów odblaskowych na częściach sprzętu (ochraniacze, derki) oraz kamizelek lub kurtek z elementami odblaskowymi.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 223,
+    "mode": "statements",
+    "text": "Czy jadąc w teren należy zabrać ze sobą telefon komórkowy?",
+    "options": [
+      {
+        "text": "Podczas każdego wyjazdu w teren należy bezwzględnie mieć przy sobie telefon komórkowy z uwagi na łatwość wezwania pomocy w razie potrzeby.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 224,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Należy przestrzegać następujących zasad: nie wolno wyprzedzać czołowego, należy poruszać się dokładnie śladem i chodem jeźdźca czołowego, należy zachowywać bezpieczne odstępy pomiędzy końmi, wynoszące minimum 3 metry.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 225,
+    "mode": "statements",
+    "text": "W jaki sposób prowadzący jeździec może wydawać polecenia grupie?",
+    "options": [
+      {
+        "text": "Prowadzący może wydawać polecenia ręką, dlatego należy obserwować gesty prowadzącego zastęp instruktora.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 226,
+    "mode": "statements",
+    "text": "Co oznacza prawa ręka instruktora wyprostowana i podniesiona do góry podczas jazdy",
+    "options": [
+      {
+        "text": "Jest to zapowiedz każdej komendy i oznacza „UWAGA!”",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 227,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Prawa ręka instruktora ułożona poziomo na piersi jest parokrotnie szybko skierowana w prawo w bok.",
+        "correct": true
+      },
+      {
+        "text": "Jeźdźcy na ten sygnał równocześnie skręcają w prawo, jadąc równolegle do siebie.",
+        "correct": true
+      },
+      {
+        "text": "Komendę tę stosuje się np. przy przejeżdżaniu przez drogę publiczną.",
+        "correct": true
+      },
+      {
+        "text": "Komendę „NA LEWO !” wydaje się gestem prawej ręki.",
+        "correct": true
+      },
+      {
+        "text": "Prawa ręka podniesiona otwartą dłonią w górę, wykonuje szybki, parokrotny ruch w lewo nad głową.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 230,
+    "mode": "statements",
+    "text": "W jaki sposób pokonujemy wjazdy (podjazdy) w terenie?",
+    "options": [
+      {
+        "text": "Podczas wjazdów jeździec odciąża grzbiet konia, pochylając tułów do przodu i pozostawiając koniowi niezbędną swobodę głowy i szyi.",
+        "correct": true
+      },
+      {
+        "text": "Jeździec nie powinien przy tym tracić kontaktu z pyskiem konia.",
+        "correct": true
+      },
+      {
+        "text": "Na stromych wjazdach można chwycić się grzywy lub objąć konia oburącz za szyję.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 228,
+    "mode": "statements",
+    "text": "W jakim chodzie wjeżdżamy na długie podjazdy?",
+    "options": [
+      {
+        "text": "Na długie podjazdy wjeżdżamy stępem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 229,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Na stromym zjeździe jeździec zachowuje dosiad odciążający, pochyla się do przodu i nieco wycofuje biodra.",
+        "correct": true
+      },
+      {
+        "text": "Nie wolno tracić kontaktu z pyskiem.",
+        "correct": true
+      },
+      {
+        "text": "Kierunek zjazdu powinien być prostopadły do zbocza w dół.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 230,
+    "mode": "statements",
+    "text": "Dlaczego nie należy przejeżdżać przez głębokie kałuże?",
+    "options": [
+      {
+        "text": "W kałużach mogą znajdować się ostre przedmioty, mogące pokaleczyć nogi konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 231,
+    "mode": "statements",
+    "text": "W jaki sposób należy się poruszać po drogach publicznych?",
+    "options": [
+      {
+        "text": "Jazda wierzchem powinna odbywać się po wyznaczonych drogach.",
+        "correct": true
+      },
+      {
+        "text": "W razie braku takiej drogi jazda wierzchem może odbywać się po poboczu, a jeżeli brak jest pobocza – po jezdni.",
+        "correct": true
+      },
+      {
+        "text": "Nie powinno się korzystać z dróg wyznaczonych do ruchu pieszych lub rowerzystów.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 232,
+    "mode": "statements",
+    "text": "W jaki sposób należy prawidłowo przekraczać drogę publiczna?",
+    "options": [
+      {
+        "text": "Jadąc wzdłuż drogi jeźdźcy poruszają się, zgodnie z przepisami Kodeksu Drogowego, w zastępie (na ogonach).",
+        "correct": true
+      },
+      {
+        "text": "W odpowiednim miejscu (dostateczna widoczność, brak nadjeżdżających pojazdów) na komendę jednocześnie wszyscy wjeżdżają prostopadle na jezdnię i najkrótszą drogą dojeżdżają do przeciwległego pobocza, gdzie równocześnie skręcają wzdłuż drogi i kontynuują jazdę za prowadzącym. instruktora",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 233,
+    "mode": "statements",
+    "text": "",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 234,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Najczęstszą przyczyną wypadków jest lekceważenie zasad bezpieczeństwa, nonszalancja i nieostrożność oraz rutyna.",
+        "correct": true
+      },
+      {
+        "text": "Jakie niewłaściwe zachowania w stajni i podczas jazdy mogą być przyczyną wypadku?",
+        "correct": true
+      },
+      {
+        "text": "Wymień co najmniej trzy przykłady.",
+        "correct": true
+      },
+      {
+        "text": "Odpowiedź: Nagłe wejście do stanowiska bez uprzedzenia konia głosem, czyszczenie biegającego po boksie, nieuwiązanego konia, obsługa konia w niewłaściwym obuwiu (klapki, sandałki, buty na śliskiej podeszwie), niewłaściwe prowadzenie konia w ręku, owijanie lonży lub wodzy wokół ręki, nie zachowanie bezpiecznej odległości przy prowadzeniu koni i podczas wsiadania i zsiadania, brak ostrożności w czasie podciągania popręgu i wsiadania, wejście na hale bez uprzedzenia głosem „uwaga” i uzyskania zgody na zapytanie „wejście wolne?”, wjeżdżanie na koniu w wąskie przejścia, nie do końca otwarte bramki itp.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 235,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Niesprawny, niesprawdzony lub wadliwy sprzęt może spowodować wiele groźnych wypadków.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 236,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Stopa głęboko wpadająca w strzemię, pięty zadarte do góry, ciągniecie za wodze wspinającego się konia, usztywnianie ciała (często prowadzi do złamań w razie upadku), silne zaciskanie nóg powodujące uszkodzenie mięśni przywodzicieli uda, niewłaściwe używanie pomocy jeździeckich, zwłaszcza bata i ostróg.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 237,
+    "mode": "statements",
+    "text": "Czy w stajni powinna być apteczka pierwszej pomocy medycznej?",
+    "options": [
+      {
+        "text": "Tak, w każdej stajni powinna znajdować się apteczka pierwszej pomocy dla ludzi, wyposażona w środki i materiały niezbędne do udzielenia pierwszej pomocy medycznej.",
+        "correct": true
+      },
+      {
+        "text": "Zawartość apteczki powinna być na bieżąco uzupełniana.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 238,
+    "mode": "statements",
+    "text": "Czy w przypadku, gdy jeździec spadł z konia i nie może samodzielnie wstać należy go",
+    "options": [
+      {
+        "text": "W żadnym wypadku nie należy tak postępować, gdyż upadek mógł spowodować wiele groźnych urazów.",
+        "correct": true
+      },
+      {
+        "text": "Lepiej poczekać, aż poszkodowany sam zacznie się podnosić.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 239,
+    "mode": "statements",
+    "text": "W jaki sposób można stwierdzić czy osobie poszkodowanej bije serce?",
+    "options": [
+      {
+        "text": "Sprawdzamy to poprzez badanie tętna na tętnicy szyjnej – przykładając trzy środkowe palce dłoni w połowie długości szyi w okolicy przednio – bocznej powinniśmy czuć wyraźne tętno, co świadczy o akcji serca.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 240,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Reanimacja polega na zastosowaniu sztucznego oddychania i masażu serca celem przywrócenia oddechu i krążenia krwi.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 241,
+    "mode": "statements",
+    "text": "W jakim czasie należy podjąć reanimacje od momentu wypadku na skutek, którego",
+    "options": [
+      {
+        "text": "Reanimacje należy podjąć natychmiast, gdyż już po 3 – 5minutach następuje obumarcie mózgu na skutek zatrzymania krążenia krwi.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 242,
+    "mode": "statements",
+    "text": "",
+    "options": [
+      {
+        "text": "Nie należy wyjeżdżać w teren w pojedynkę, starać się by grupa liczyła przynajmniej 3 osoby, zawsze zabierać ze sobą telefon komórkowy (najlepiej, gdy jest ich w grupie kilka - spadając z konia można go uszkodzić, co uniemożliwi wezwanie pomocy).",
+        "correct": true
+      },
+      {
+        "text": "Grupa jeźdźców powinna wyjeżdżać w teren pod opieka instruktora, a osoby niepełnoletnie zawsze w towarzystwie dorosłych.",
+        "correct": true
+      },
+      {
+        "text": "Należy pozostawić w stajni wiadomość o zamierzonym czasie powrotu i trasie przejazdu oraz unikać dróg o dużym nasileniu ruchu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 243,
+    "mode": "statements",
+    "text": "Dlaczego znajomość zasad udzielania pierwszej pomocy jest obowiązkiem każdego",
+    "options": [
+      {
+        "text": "Znajomość zasad pierwszej pomocy jest konieczna z uwagi na stosunkowo dużą urazowość w jeździectwie.",
+        "correct": true
+      },
+      {
+        "text": "W razie wypadku umiejętności i wiedza z zakresu pierwszej pomocy medycznej mogą nie tylko zmniejszyć ryzyko powikłań u osoby poszkodowanej, ale przede wszystkim uratować jej życie.",
+        "correct": true
+      },
+      {
+        "text": "CZĘŚĆ STAJENNA",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 1,
+    "mode": "statements",
+    "text": "Opisz poprawne nakładanie kantara.",
+    "options": [
+      {
+        "text": "Należy podejść do konia, nawiązać z nim kontakt fizyczny – poklepać.",
+        "correct": true
+      },
+      {
+        "text": "Prawą ręką przytrzymać głowę konia – ręka obejmuje głowę konia od dołu, dłoń położona na kości nosowej.",
+        "correct": true
+      },
+      {
+        "text": "Kantar trzymany w lewej ręce nałożyć na końska głowę przesuwając go delikatnie przez uszy na część potyliczną.",
+        "correct": true
+      },
+      {
+        "text": "Dopasować wielkość kantara.",
+        "correct": true
+      },
+      {
+        "text": "Nie oplątywać uwiązu wokół palców lub nadgarstka.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 2,
+    "mode": "statements",
+    "text": "Jak prawidłowo należy przytrzymać głowę konia?",
+    "options": [
+      {
+        "text": "Należy stać po lewej stronie konia, prawa ręką objać od dołu głowę konia, palce dłoni położyć na kości nosowej.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 3,
+    "mode": "statements",
+    "text": "Po której stronie należy stać przy nakładaniu kantara?",
+    "options": [
+      {
+        "text": "Nakładając kantar należy stać po lewej stronie konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 4,
+    "mode": "statements",
+    "text": "Co to jest węzeł bezpieczeństwa?",
+    "options": [
+      {
+        "text": "Jest to węzeł, który można odwiązać jednym pociągnięciem wolnego końca linki, nawet, jeśli linka jest mocno naprężona.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 5,
+    "mode": "statements",
+    "text": "W jakiej kolejności podnosimy koniowi kończyny podczas czyszczenia kopyt?",
+    "options": [
+      {
+        "text": "Kończyny konia podnosimy kolejno, w kierunku przeciwnym do ruchu wskazówek zegara, poczynając od lewej przedniej. (Lewa przednia > lewa tylna > prawa tylna > prawa przednia).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 6,
+    "mode": "statements",
+    "text": "Opisz poprawne podniesienie lewej, przedniej kończyny.",
+    "options": [
+      {
+        "text": "Po spokojnym podejściu do konia, stojąc twarzą w kierunku zadu, opieramy lewą dłoń na wysokości łopatki.",
+        "correct": true
+      },
+      {
+        "text": "Pewnie przesuwamy dłoń na dół, aż do przedramienia.",
+        "correct": true
+      },
+      {
+        "text": "Równocześnie prawą ręką chwytamy pęcinę.",
+        "correct": true
+      },
+      {
+        "text": "Po podniesieniu nogi, opieramy ją o lewe udo zmieniając chwyt i przytrzymując pęcinę lewą ręką.",
+        "correct": true
+      },
+      {
+        "text": "Aby ułatwić podnoszenie kończyny przedniej, możemy oprzeć się ramieniem o łopatkę konia – w efekcie uzyskujemy odciążenie unoszonej nogi.",
+        "correct": true
+      },
+      {
+        "text": "Podczas podnoszenia kończyny podajemy koniowi głosem komendę „NOGA!”",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 7,
+    "mode": "statements",
+    "text": "W jaki sposób należy stanąć przy koniu, aby podnieść prawą tylną kończynę?",
+    "options": [
+      {
+        "text": "Podczas podnoszenia prawej tylnej koniczyny należy stanąć twarzą w kierunku zadu konia, na wysokości jego prawego biodra.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 8,
+    "mode": "statements",
+    "text": "Wymień podstawowy sprzęt służący do pielęgnacji konia?",
+    "options": [
+      {
+        "text": "Podstawowy sprzęt do pielęgnacji konia to: szczotka do sierści (tzw. kartacz), szczotka do długich włosów, zgrzebło (metalowe, gumowe, plastikowe), szczotka do masażu, kopystka, gąbka, grzebień do grzywy, ściągacz do potu i wody, rękawica gumowa do mycia, pędzel i smar do natłuszczania kopyt, nożyczki.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 9,
+    "mode": "statements",
+    "text": "Wymień czynności wykonywane podczas pielęgnacji konia?",
+    "options": [
+      {
+        "text": "Usuwanie zaklejeń i brudu z sierści za pomocą plastikowego lub gumowego zgrzebła.",
+        "correct": true
+      },
+      {
+        "text": "Czyszczenie sierści – szczotką kartaczem.",
+        "correct": true
+      },
+      {
+        "text": "Przetarcie okolic oczu, warg, nozdrzy – wilgotną gąbką.",
+        "correct": true
+      },
+      {
+        "text": "Przetarcie inną wilgotną gąbką - wewnętrznej części ogona, okolic odbytu i narządów płciowych.",
+        "correct": true
+      },
+      {
+        "text": "Wyczyszczenie i wyczesanie grzywy – szczotką do długich włosów i grzebieniem.",
+        "correct": true
+      },
+      {
+        "text": "Rozczesanie ogona palcami, unikając wyrywania włosów.",
+        "correct": true
+      },
+      {
+        "text": "Nie używać grzebienia!",
+        "correct": true
+      },
+      {
+        "text": "Umycie kopyt, okresowe (przynajmniej raz w tygodniu) natłuszczenie smarem do kopyt.",
+        "correct": true
+      },
+      {
+        "text": "Po zakończeniu czyszczenia przetarcie całego konia z kurzu miękka szmatką.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 10,
+    "mode": "statements",
+    "text": "Wskaż na rysunku następujące części ciała konia: kłąb, łopatkę, łokieć, nadgarstek,",
+    "options": [
+      {
+        "text": "lędźwie, puzdro, kolano, słabiznę, guz biodrowy, guz kulszowy, staw skokowy, nadpęcie przedniej koniczyny, pęcinę tylnej kończyny.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 11,
+    "mode": "statements",
+    "text": "Wymień (idąc od góry w dół) poszczególne odcinki zewnętrznej budowy przedniej",
+    "options": [
+      {
+        "text": "Łopatka, staw barkowy, ramie, staw łokciowy, przedramię (podbarcze), staw nadgarstkowy (napiąstek), nadpęcie, staw pęcinowy, pęcina, koronka, kopyto.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 12,
+    "mode": "statements",
+    "text": "Wymień rogowe twory skóry u konia.",
+    "options": [
+      {
+        "text": "Kopyta, kasztany, ostrogi.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 13,
+    "mode": "statements",
+    "text": "W których miejscach u konia występują włosy ochronne?",
+    "options": [
+      {
+        "text": "Długie włosy ochronne występują w postaci grzywki na ciemieniu i czole, grzywy na szyi, składają się na uwłosienie ogona oraz szczotek w tylnej części stawów pęcinowych.",
+        "correct": true
+      },
+      {
+        "text": "U niektórych ras koni (przeważnie zimnokrwistych, ale również i szlachetnych, np. fryzyjskich) szczotki sięgają od tylnej części stawów nadgarstkowych i skokowych do stawów pęcinowych (wzdłuż tylnej krawędzi nadpęcia).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 14,
+    "mode": "statements",
+    "text": "Z jakich zasadniczych części składa się uzda (tręzla) wędzidłowa?",
+    "options": [
+      {
+        "text": "Uzda wędzidłowa składa się z ogłowia z wędzidłem i wodzami oraz z nachrapnika.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 15,
+    "mode": "statements",
+    "text": "Wymień i wskaż na planszy podstawowe części składowe ogłowia wędzidłowego z",
+    "options": [
+      {
+        "text": "Nagłówek, policzko (pasek policzkowy), podgardle, naczółek, pasek nosowy nachrapnika, kółeczka nachrapnika, wędzidło, wodza, stoper do wytoka (motylek).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 16,
+    "mode": "statements",
+    "text": "Z jakich najważniejszych części składa się wędzidło?",
+    "options": [
+      {
+        "text": "Wędzidło składa się z ogniw połączonych przegubem oraz ruchomych pierścieni do przypinania wodzy i policzków.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 17,
+    "mode": "statements",
+    "text": "Wskaż następujące części siodła sportowego: terlica (szkielet), przedni łęk, krawędź",
+    "options": [
+      {
+        "text": "tylnego łęku, siedzisko, zaczep puśliska (zamek), skrzydełko, puślisko, strzemię, tybinka, podtybinka, poduszki, wyściółka, poduszka kolanowa, popręg ze sprzączkami, przystuły.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 18,
+    "mode": "statements",
+    "text": "Jak prawidłowo przenosimy ogłowie?",
+    "options": [
+      {
+        "text": "Ogłowie należy powiesić na lewym ramieniu, naczółkiem na zewnątrz, wodze przewieszone w połowie długości na nagłówku.",
+        "correct": true
+      },
+      {
+        "text": "Inaczej monaż przenosić ogłowie zawieszone na lewym przedramieniu, wówczas wodze równie zawieszone są razem z nagłówkiem, by uniknąć zaplątania.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 19,
+    "mode": "statements",
+    "text": "Jak prawidłowo przenosimy siodło?",
+    "options": [
+      {
+        "text": "Siodło można przenosić na dwa sposoby: przewieszone na lewym przedramieniu, przednim łękiem w kierunku łokcia albo oparte tylnym łękiem o lewe biodro, podtrzymywane lewą dłonią za przedni łęk.",
+        "correct": true
+      },
+      {
+        "text": "W każdym przypadku popręg jest przewieszony przez siedzisko, a strzemiona podciągnięte.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 20,
+    "mode": "statements",
+    "text": "Co należy zrobić z siodłem, gdy wykonujemy przy koniu inne czynności?",
+    "options": [
+      {
+        "text": "Siodło najlepiej powiesić na specjalnym wieszaku przy boksie, albo na drzwiach boksu.",
+        "correct": true
+      },
+      {
+        "text": "W ostateczności można je oprzeć przednim łękiem o podłogę, tylnym łękiem o ścianę, tak by czaprak (potnik ) był na zewnątrz.",
+        "correct": true
+      },
+      {
+        "text": "Nie wolno kłaść siodła na ściółce w boksie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 21,
+    "mode": "statements",
+    "text": "Opisz i zademonstruj prawidłowe kiełznanie konia.",
+    "options": [
+      {
+        "text": "Uporządkować ogłowie przewieszone na lewej ręce, podejść do konia z lewej strony, objąć prawą ręką łeb konia, przełożyć wodze przez szyję (o ile koń stoi spokojnie!), zdjąć kantar lewą ręką – prawa przytrzymuje głowę konia za grzbiet nosa, chwycić palcami prawej dłoni policzka ogłowia podanego lewą ręką, ułożyć wędzidło płasko na lewej dłoni (kciuk wolny), włożyć ostrożnie wędzidło lewą dłonią do pyska, naciskając lekko kciukiem na wargę, równocześnie unieść prawą dłonią ogłowie, by wędzidło wsunęło się na swoje miejsce (nie uderzać wędzidłem o zęby!), po uniesieniu ogłowia przełożyć nagłówek lewą ręką najpierw przez lewe ucho, potem prawą ręką przez prawe ucho konia.",
+        "correct": true
+      },
+      {
+        "text": "Po nałożeniu ogłowia przełożyć grzywkę przez naczółek oraz zapiąć podgardle i nachrapnik.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 22,
+    "mode": "statements",
+    "text": "Jak ciasno należy zapinać podgardle?",
+    "options": [
+      {
+        "text": "Podgardle zapinamy na tyle luźno, by można było wsunąć pod nie na szerokość całą dłoń.",
+        "correct": true
+      },
+      {
+        "text": "Nie może ono uciskać tchawicy i utrudniać oddychania.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 23,
+    "mode": "statements",
+    "text": "Jak należy dopasować nachrapnik hanowerski?",
+    "options": [
+      {
+        "text": "Pasek nosowy nachrapnika hanowerskiego leży na szerokość czterech palców ponad nozdrzami (nie dotyczy to kuców i małych koni!) i jest zapięty w taki sposób, by nachrapnik nie utrudniał oddychania.",
+        "correct": true
+      },
+      {
+        "text": "Pomiędzy żuchwą, a podbródkiem nachrapnika musza zmieścić się dwa palce płasko położone, aby koń mógł wygodnie żuć wędzidło, nie otwierając pyska.",
+        "correct": true
+      },
+      {
+        "text": "Kółeczka nachrapnika musza się znajdować przed ogniwami wędzidła.",
+        "correct": true
+      },
+      {
+        "text": "Sprzączka podbródka musi leżeć z boku i nie może uciskać krawędzi szczęki.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 24,
+    "mode": "statements",
+    "text": "Jak należy dopasować nachrapnik polski lub kombinowany?",
+    "options": [
+      {
+        "text": "Pasek nosowy nachrapnika polskiego lub kombinowanego leży na szerokość dwóch palców poniżej kości jarzmowej.",
+        "correct": true
+      },
+      {
+        "text": "Pomiędzy zapiętym paskiem i kością nosową pozostaje miejsce, na co najmniej jeden palec.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 25,
+    "mode": "statements",
+    "text": "Dlaczego każdy koń w stajni powinien mieć swoje ogłowie?",
+    "options": [
+      {
+        "text": "Bardzo ważne jest prawidłowe dopasowanie ogłowia do wymiarów głowy konia oraz dobór właściwego wędzidła.",
+        "correct": true
+      },
+      {
+        "text": "Dlatego dla każdego konia ogłowie dopasowuje się indywidualnie i nie należy używać ogłowia innego konia, który może mieć inne wymiary głowy i potrzebować innego kiełzna.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 26,
+    "mode": "statements",
+    "text": "Czy ma znaczenie, które siodło z siodlarni weźmiemy dla naszego konia?",
+    "options": [
+      {
+        "text": "Siodło musi być dopasowane rozmiarem do konia i do jeźdźca, w związku z tym najczęściej każdy koń ma własne siodło i nie należy używać sprzętu należącego do innego konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 27,
+    "mode": "statements",
+    "text": "Z której strony podchodzimy do konia z siodłem podczas siodłania?",
+    "options": [
+      {
+        "text": "Do konia podchodzimy z lewej strony, trzymając siodło na lewym przedramieniu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 28,
+    "mode": "statements",
+    "text": "Co należy sprawdzić przed nałożeniem siodła na grzbiet konia?",
+    "options": [
+      {
+        "text": "Sprawdzamy czystość potnika (czapraka), podciągnięcie strzemion na puśliskach oraz stan zaczepów puślisk i przystuł popręgowych.",
+        "correct": true
+      },
+      {
+        "text": "Przystuły nie mogą być naderwane, puśliska musza mieć szwy w dobrym stanie i nie mogą być ponadrywane, a zamki puślisk powinny być sprawne, naoliwione i najlepiej otwarte.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 29,
+    "mode": "statements",
+    "text": "W jakim celu przygładzamy sierść konia na grzbiecie przed nałożeniem siodła?",
+    "options": [
+      {
+        "text": "Przygładzamy w ten sposób zmierzwione włosy oraz sprawdzamy stan skóry pod katem ewentualnych urazów i bolesności.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 30,
+    "mode": "statements",
+    "text": "W jaki sposób prawidłowo nakładamy siodło? Zademonstruj.",
+    "options": [
+      {
+        "text": "Siodło powoli i ostrożnie nakładamy tak, by jego środek znalazł się nad kłębem konia.",
+        "correct": true
+      },
+      {
+        "text": "Następnie silnie naciskając lewa ręką na przedni łęk przesuwamy siodło do tyłu aż do chwili, gdy trafi ono we wgłębienie grzbietu tuż za kłębem.",
+        "correct": true
+      },
+      {
+        "text": "Następnie wyrównujemy potnik (czaprak), który nie może być pofałdowany lub zawinięty i powinien przylegać do wewnętrznej strony przedniego łęku.",
+        "correct": true
+      },
+      {
+        "text": "Po założeniu siodła należy przejść na prawa stronę i po skontrolowaniu położenia potnika, opuścić popręg i sprawdzić jego ułożenie pod prawą tybinką.",
+        "correct": true
+      },
+      {
+        "text": "Następnie powrócić na lewą stronę, sięgnąć po popręg prawą ręką i lekko zapiąć go do przystuł pod lewą tybinką.",
+        "correct": true
+      },
+      {
+        "text": "Podczas przypinania popręgu tybinkę można oprzeć o swoja głowę.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 31,
+    "mode": "statements",
+    "text": "W którym miejscu na koniu powinien znajdować się popręg siodła?",
+    "options": [
+      {
+        "text": "Popręg powinien leżeć na mostku konia, mniej więcej szerokość dłoni za wyrostkami łokciowymi konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 32,
+    "mode": "statements",
+    "text": "Dlaczego zalecane jest przejście na prawa stronę konia podczas siodłania?",
+    "options": [
+      {
+        "text": "Jeździec powinien skontrolować stan popręgu i potnik po prawej stronie, a ponadto będąc po prawej stronie może delikatnie opuścić popręg unikając uderzenia konia po kończynach.",
+        "correct": true
+      },
+      {
+        "text": "Poza tym w przypadku koni stojących w stanowisku unika się przypięcia konia popręgiem do przedzielnika, co czasem może się zdarzyć!",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 33,
+    "mode": "statements",
+    "text": "Z której strony należy iść prowadząc konia?",
+    "options": [
+      {
+        "text": "Prowadząc konia należy iść po jego lewej stronie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 34,
+    "mode": "statements",
+    "text": "Dlaczego prowadząc konia należy wcześniej podciągnąć strzemiona?",
+    "options": [
+      {
+        "text": "Strzemiona opuszczone na dół mogą uderzać konia i przestraszyć go, a także mogą zaczepić się o wystające przedmioty.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 35,
+    "mode": "statements",
+    "text": "W której ręce trzymamy wolny koniec wodzy podczas prowadzenia konia?",
+    "options": [
+      {
+        "text": "Wolny koniec wodzy należy trzymać w lewej dłoni – końcówki wodzy razem i przytrzymane kciukiem.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 36,
+    "mode": "statements",
+    "text": "W jakim przypadku podczas prowadzenia konia nie zdejmujemy wodzy z szyi konia?",
+    "options": [
+      {
+        "text": "Wodze pozostają na szyi konia wówczas, gdy używany jest wytok.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 37,
+    "mode": "statements",
+    "text": "W którą stronę zawracamy prowadząc konia?",
+    "options": [
+      {
+        "text": "Podczas prowadzenia konia zawraca się go zawsze w prawo.",
+        "correct": true
+      },
+      {
+        "text": "Aby zawrócić konia, należy unieść lewą dłoń, a prawa wywrzeć lekki nacisk na prawa wodze.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 38,
+    "mode": "statements",
+    "text": "Jakie czynności należy wykonać przed przystąpieniem do wsiadania na konia?",
+    "options": [
+      {
+        "text": "Należy dociągnąć popręg, przerzucić wodze na szyje konia oraz opuścić strzemiona i wyregulować długość puślisk, zwracając równocześnie uwagę na to, by ani przez chwile koń nie pozostał bez kontroli.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 39,
+    "mode": "statements",
+    "text": "W jaki sposób należy ustawić konia by bezpiecznie go dosiąść?",
+    "options": [
+      {
+        "text": "Koń powinien być ustawiony na linii środkowej hali lub otwartej ujeżdżalni względnie w środku koła.",
+        "correct": true
+      },
+      {
+        "text": "Należy zachować bezpieczne odstępy pomiędzy końmi.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 40,
+    "mode": "statements",
+    "text": "W jaki sposób regulujemy długość puślisk stojąc obok konia?",
+    "options": [
+      {
+        "text": "Prawidłowa długość puśliska wraz ze strzemieniem odpowiada w przybliżeniu długości ramienia.",
+        "correct": true
+      },
+      {
+        "text": "Należy wiec dotknąć środkowym palcem sprzączki puśliska leżącej na zamku i ułożyć naprężone puślisko wzdłuż wewnętrznej strony wyprostowanej ręki.",
+        "correct": true
+      },
+      {
+        "text": "Stopka strzemienia powinna dotykać pachy.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 41,
+    "mode": "statements",
+    "text": "Z której strony konia wsiadamy?",
+    "options": [
+      {
+        "text": "Konia dosiadamy od jego lewej strony.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 42,
+    "mode": "statements",
+    "text": "W jaki sposób należy stanąć przy koniu podczas wsiadania?",
+    "options": [
+      {
+        "text": "Przy koniu stajemy po jego lewej stronie, plecami do jego głowy, lewym biodrem w stronę lewego stawu barkowego konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 43,
+    "mode": "statements",
+    "text": "Co robimy z batem wsiadając na konia?",
+    "options": [
+      {
+        "text": "Bat należy trzymać w lewej ręce wraz z wodzami, końcówką skierowaną w dół.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 44,
+    "mode": "statements",
+    "text": "Podaj, jakie najczęstsze błędy popełnia się podczas wsiadania?",
+    "options": [
+      {
+        "text": "Do błędów przy wsiadaniu należy: zbyt krótkie lub zbyt luźne trzymanie wodzy w lewej ręce, co może powodować kręcenie się konia lub brak nad nim kontroli.",
+        "correct": true
+      },
+      {
+        "text": "Uderzanie konia kolanem prawej nogi w okolice nerek, w czasie przekładania nogi nad grzbietem.",
+        "correct": true
+      },
+      {
+        "text": "Zgięta noga w kolanie.",
+        "correct": true
+      },
+      {
+        "text": "Wbijanie czubka lewego buta w żebra konia.",
+        "correct": true
+      },
+      {
+        "text": "Wszystkie te błędy mogą spowodować niepokój lub spłoszenie się konia, a w konsekwencji wypadek.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 45,
+    "mode": "statements",
+    "text": "W jaki sposób sprawdza się dopasowanie długości puślisk siedząc na koniu?",
+    "options": [
+      {
+        "text": "Strzemiona opuszczone na dół powinny sięgać mniej więcej o palec poniżej kostki jeźdźca swobodnie siedzącego w siodle z luźno opuszczonymi nogami.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 46,
+    "mode": "statements",
+    "text": "Czy jeździec może samodzielnie wyregulować długość puślisk siedząc w siodle?",
+    "options": [
+      {
+        "text": "Oczywiście, jest to możliwe.",
+        "correct": true
+      },
+      {
+        "text": "Prawidłowe dopasowanie strzemion jest możliwe jedynie z siodła.",
+        "correct": true
+      },
+      {
+        "text": "Regulacja puślisk przed wsiadaniem ma charakter jedynie orientacyjny.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 47,
+    "mode": "statements",
+    "text": "W jaki sposób należy prawidłowo regulować długość puślisk z siodła?",
+    "options": [
+      {
+        "text": "Jeździec pozostawiając stopę w strzemieniu odchyla nieco kolano i udo od siodła, a ręką pociąga za końcówkę puśliska rozpinając klamerkę.",
+        "correct": true
+      },
+      {
+        "text": "Po skróceniu lub wydłużeniu puśliska należy wskazującym palcem trafić bolcem sprzączki w otwór puśliska i zapiąć sprzączkę.",
+        "correct": true
+      },
+      {
+        "text": "Klamrę puśliska należy następnie podciągnąć do zamka siodła, by nie wystawała poniżej skrzydełka, co może spowodować zranienie nogi jeźdźca.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 48,
+    "mode": "statements",
+    "text": "Na co należy zwrócić uwagę dokonując regulacji puślisk?",
+    "options": [
+      {
+        "text": "Ważne jest, by oba puśliska były wyregulowane na identyczną długość, gdy w przeciwnym wypadku jeździec będzie siedział krzywo w siodle.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 49,
+    "mode": "statements",
+    "text": "Czy siedząc na koniu można dociągać popręg?",
+    "options": [
+      {
+        "text": "Dociąganie popręgu z siodła jest możliwe i bardzo wskazane.",
+        "correct": true
+      },
+      {
+        "text": "Dzięki temu uzyskujemy ostateczne pewne zamocowanie siodła na grzbiecie konia, co uniemożliwia jego przesuniecie oraz otarcie grzbietu konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 50,
+    "mode": "statements",
+    "text": "Czy popręg lepiej dociągać w „stój” czy w stępie?",
+    "options": [
+      {
+        "text": "Prawidłowo należy dociągać popręg w stępie, gdy wówczas mniejsze jest ryzyko „przyszczypania” popręgiem fałdek skóry konia oraz trudniej jest koniowi napinać mięsnie klatki piersiowej w obronie przed mocniejszym dopięciem popręgu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 51,
+    "mode": "statements",
+    "text": "W jaki sposób prawidłowo dociągamy popręg z siodła?",
+    "options": [
+      {
+        "text": "Jeździec bierze wodze do jednej ręki, przesuwa nogę przed tybinkę siodła pozostawiając stopę w strzemieniu.",
+        "correct": true
+      },
+      {
+        "text": "Odchyla tybinkę siodła, a wolną ręką po kolei skraca przystuły dociągając popręg.",
+        "correct": true
+      },
+      {
+        "text": "Bolec sprzączki popręgowej najlepiej przytrzymywać wskazującym palcem i wprowadzić go w otwór przystuły.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 52,
+    "mode": "statements",
+    "text": "Opisz jeden ze sposobów zsiadania z konia.",
+    "options": [
+      {
+        "text": "Najbardziej prawidłowy i bezpieczny sposób jest następujący: zatrzymać konia we właściwym miejscu, wyjąć obie nogi ze strzemion i pochylając tułów do przodu przerzucić prawa nogę ponad zadem i wylądować miękko na obu stopach po lewej stronie konia.",
+        "correct": true
+      },
+      {
+        "text": "Lewa ręka powinna cały czas przytrzymywać wodze na wysokości kłębu konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 53,
+    "mode": "statements",
+    "text": "W jakiej kolejności zdejmujemy z konia części rzędu podczas rozsiodłania w boksie?",
+    "options": [
+      {
+        "text": "W pierwszej kolejności zdejmujemy siodło, a następnie ogłowie.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 54,
+    "mode": "statements",
+    "text": "Na co należy uważać opuszczając odpięty popręg?",
+    "options": [
+      {
+        "text": "Należy uważać, by nie uderzyć konia sprzączkami po przednich kończynach.",
+        "correct": true
+      },
+      {
+        "text": "W tym celu odgradzamy własną noga kończyny konia od opadającego popręgu.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 55,
+    "mode": "statements",
+    "text": "Które części ogłowia rozpinamy podczas zdejmowania uzdy?",
+    "options": [
+      {
+        "text": "Należy rozpiąć podgardle i nachrapnik.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 56,
+    "mode": "statements",
+    "text": "Co należy zrobić po zdjęciu ogłowia, a przed zdjęciem siodła w stanowisku?",
+    "options": [
+      {
+        "text": "Należy nałożyć koniowi na głowę kantar z uwiązem, który zaraz po wprowadzeniu zakładamy na jego szyję.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 57,
+    "mode": "statements",
+    "text": "Na co musimy uważać zdejmując ogłowie?",
+    "options": [
+      {
+        "text": "Należy zwrócić uwagę, aby wodze były przewieszone przez lewe przedramię jeźdźca (nie mogą zwisać dotykając ziemi) oraz by wędzidło podczas zdejmowania uzdy nie uderzyło ani nie zaczepiło się o zęby konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 58,
+    "mode": "statements",
+    "text": "Zademonstruj wiązanie węzła bezpieczeństwa.",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 59,
+    "mode": "statements",
+    "text": "W jaki sposób rozczesujemy włosy ogona?",
+    "options": [
+      {
+        "text": "Najlepiej przeczesywać ogon palcami, gdyż długo odrasta.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 60,
+    "mode": "statements",
+    "text": "Omów i wskaż części ogłowia i siodła.",
+    "options": [],
+    "explanation": ""
+  },
+  {
+    "number": 61,
+    "mode": "statements",
+    "text": "Zademonstruj poprawne dopasowanie sprzętu jeździeckiego (ogłowie w tym wędzidło",
+    "options": [
+      {
+        "text": "wytok i różne rodzaje nachrapników, siodła w tym podogonie).",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 62,
+    "mode": "statements",
+    "text": "Wskaż różnice w budowie siodeł. Np. ujeżdzeniowego, skokowego, wszechstronnego,",
+    "options": [
+      {
+        "text": "kulbaki.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "number": 63,
+    "mode": "choices",
+    "text": "Wskaż i omów:",
+    "options": [
+      {
+        "text": "Budowę konia;",
+        "correct": true
+      },
+      {
+        "text": "Budowę kopyta;",
+        "correct": true
+      },
+      {
+        "text": "Budowę głowy konia;",
+        "correct": true
+      },
+      {
+        "text": "Stawy;",
+        "correct": true
+      },
+      {
+        "text": "Wady postawy konia widziane z boku, z przodu i z tyłu f. położenie najważniejszych narządów wewnętrznych konia.",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  }
+]

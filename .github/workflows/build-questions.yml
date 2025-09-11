@@ -1,1 +1,39 @@
+name: Build BOJ Questions
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/build-questions.yml
+      - scripts/parse_boj.py
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pdfminer.six
+
+      - name: Parse BOJ PDF -> JSON
+        run: |
+          python scripts/parse_boj.py \
+            --pdf "https://pzj.pl/wp-content/uploads/2020/08/Pytania_Odznaka_Br%C4%85zowa.pdf" \
+            --out "exam/boj-questions.json"
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "exam/boj-questions.json"
+          message: "chore: build exam/boj-questions.json from official PZJ PDF"
+          default_author: github_actions
 

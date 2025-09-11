@@ -1,17 +1,16 @@
-<script>
-(async function () {
-  const el = document.getElementById('exam-widget');
-
-  // 1) pełna pula z repo
-  const QUESTIONS_URL = './boj-questions.json';
-  const pool = await fetch(QUESTIONS_URL).then(r => r.json());
-
-  // 2) losujemy zawsze 10 na sesję
-  const quiz = shuffle(pool).slice(0, 10);
-
-  // 3) dalej Twój renderer (checkboxy, bramka e-mail, wynik)
-  //    Jeśli korzystasz z mojego wcześniejszego kodu, nic więcej nie zmieniasz.
-  function shuffle(a){ return [...a].sort(()=>Math.random()-.5); }
-})();
-</script>
-
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wirtualny Egzaminator BOJ</title>
+  <link rel="stylesheet" href="exam/exam-widget.css" />
+</head>
+<body>
+  <main>
+    <h1>Wirtualny Egzaminator BOJ</h1>
+    <div id="exam-widget"><div class="loader">Ładowanie pytań…</div></div>
+  </main>
+  <script src="exam/exam-boj.js" defer></script>
+</body>
+</html>

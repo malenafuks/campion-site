@@ -7,7 +7,6 @@
       Upewnij się, że plik <code>exam/boj-questions.json</code> istnieje i że ścieżka jest poprawna.
     </div>`;
   }
-
   // 1) Wczytaj pełny bank pytań
   let pool = null;
   try{

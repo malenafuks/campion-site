@@ -1,193 +1,163 @@
-# Create the open-answer 300-question JSON using the required filename.
-import json, random
+(function(){
+  const CONFIG = {
+    questionsUrl: "exam/boj-questions.json", // <-- NIE ZMIENIAJ NAZWY; zgodnie z Twoją strukturą
+    pick: 10,                // ile pytań losujemy
+    shuffle: true,           // tasuj pulę
+    PASS_THRESHOLD: 0.7,     // próg zaliczenia pojedynczego pytania
+    showModelAnswer: true    // pokazuj wzorzec po sprawdzeniu
+  };
 
-random.seed(42)
+  // ---- montaż UI ----
+  function mount() {
+    const root = document.getElementById("exam-widget") || document.body;
+    root.innerHTML = `
+      <div class="quiz-app">
+        <div class="quiz-card">
+          <div class="quiz-progress">
+            <div class="bar"><span id="bar" style="width:0%"></span></div>
+            <div class="step" id="step">0/0</div>
+          </div>
+          <h2 class="quiz-question" id="q"></h2>
+          <textarea id="ans" class="ta" placeholder="Twoja odpowiedź..." rows="6" style="width:100%;padding:12px;border:1px solid rgba(0,0,0,.12);border-radius:12px;background:#fff"></textarea>
+          <div class="quiz-hint" id="hint" style="display:none;margin-top:8px">Napisz odpowiedź i kliknij „Sprawdź”.</div>
+          <div class="quiz-actions">
+            <button class="btn" id="skip">Pomiń</button>
+            <button class="btn btn-primary" id="check">Sprawdź</button>
+            <button class="btn" id="next" disabled>Dalej</button>
+          </div>
+          <div class="feedback" id="fb" style="display:none"></div>
+        </div>
+      </div>
+    `;
+    return {
+      root,
+      bar: root.querySelector("#bar"),
+      step: root.querySelector("#step"),
+      q: root.querySelector("#q"),
+      ans: root.querySelector("#ans"),
+      hint: root.querySelector("#hint"),
+      skip: root.querySelector("#skip"),
+      check: root.querySelector("#check"),
+      next: root.querySelector("#next"),
+      fb: root.querySelector("#fb")
+    };
+  }
 
-base_items = [
-    ("Opisz prawidłowe prowadzenie konia na uwiązie.",
-     ["po lewej stronie","przy łopatce","pętle w dłoni","nie owijać uwiąz"],
-     ["bez szarpania","dystans","kontakt głosowy"],
-     ["owinięty wokół ręki","ciągnąć za karabińczyk"]),
-    ("Jak bezpiecznie przejść za zadem konia?",
-     ["bardzo blisko z ręką","albo 2–3 m"],
-     ["kontakt głosem","zapowiedz ruch"],
-     ["około 1 m za zadem"]),
-    ("Jak przeprowadzić konia przez bramkę lub drzwi boksu?",
-     ["wprowadzamy przód","odwracamy się twarzą do konia","zamykać spokojnie"],
-     ["kontrola uwiązu","bez pośpiechu"],
-     ["wpuścić samego","ciągnąć do środka tyłem"]),
-    ("Jak przywiązać konia na myjce lub w stajni?",
-     ["stały punkt","szybki węzeł","nie do wędzidła"],
-     ["odpowiednia długość uwiązu","wysokość głowy"],
-     ["ruchomy element","do wędzidła"]),
-    ("Jak bezpiecznie podać smakołyk z ręki?",
-     ["otwarta dłoń","palce złączone"],
-     ["spokojnie","nisko przed pyskiem"],
-     ["trzymać w palcach","zaciśnięta pięść"]),
-    ("Co zrobić, gdy koń nadepnie na uwiąz?",
-     ["nie szarpać","poprosić o krok","zwolnić napięcie"],
-     ["spokój","bezpieczeństwo"],
-     ["szarpnąć mocno","uderzyć w pierś"]),
-    ("Opisz prawidłowe czyszczenie kopyta kopystką.",
-     ["od piętki do palca","rowki przy strzałce","nie uszkadzać strzałki"],
-     ["wyjąć kamienie","kontrola zapachu"],
-     ["skrobać po strzałce","dowolny kierunek"]),
-    ("Jak często sprawdzać kopyta w stajni?",
-     ["codziennie","przed i po pracy"],
-     ["po padoku w błocie","po wyjściiu z boksu"],
-     ["raz w tygodniu wystarczy"]),
-    ("Kiedy chłodzić nogi po pracy?",
-     ["po intensywnym wysiłku","10–20 minut chłodzenie"],
-     ["zimna woda","cold pack"],
-     ["zawsze po spacerze","nigdy nie chłodzić"]),
-    ("Jak przygotować konia do kąpieli na myjce?",
-     ["przywiązać szybkim węzłem","ciepła woda","omijać uszy i twarz"],
-     ["szampon koński","spokój"],
-     ["do wędzidła","zimna woda na głowę"]),
-    ("Kiedy i jak regulować popręg?",
-     ["po osiodłaniu","po wsiadaniu","stabilnie","nie utrudnia oddechu"],
-     ["sprawdzić kilka razy","po rozprężeniu"],
-     ["maksymalnie dokręcić","tylko raz"]),
-    ("Jak dopasować wysokość wędzidła?",
-     ["1–2 fałdki"],
-     ["komfort","stabilność"],
-     ["3–4 fałdki","brak fałdek"]),
-    ("Co zrobić przed zdjęciem ogłowia?",
-     ["założyć kantar","uwiąz"],
-     ["kontrola po zdjęciu"],
-     ["zdjąć bez kantara"]),
-    ("Jak ocenić dopasowanie siodła w spoczynku?",
-     ["równy kontakt paneli","wolny kanał","brak mostkowania","nie na kłąb"],
-     ["symetria"],
-     ["wąski kanał","docisk przodu"]),
-    ("Jak ustawić kask na głowie jeźdźca?",
-     ["nisko na czole","pasek zapięty","nie przemieszcza się"],
-     ["dopasowane wkładki"],
-     ["luźny pasek","przechylony na tył"]),
-    ("Jaka długość puślisk na płaskim dla przeciętnego jeźdźca?",
-     ["strzemię do kostki"],
-     ["indywidualne dopasowanie"],
-     ["znacznie krócej","znacznie dłużej"]),
-    ("Jak poprawnie założyć ochraniacze/owijki na nogi?",
-     ["równo bez fałd","zapięcia do tyłu","prawidłowy naciąg"],
-     ["czyste nogi","suchy włos"],
-     ["bardzo ciasno","zapięcia do przodu"]),
-    ("Jak sprawdzić dopasowanie nachrapnika?",
-     ["1–2 palce luzu","na kości nosa"],
-     ["nie uciska tkanek miękkich"],
-     ["bez luzu","3–4 palce luzu"]),
-    ("Jakie są podstawowe chody konia?",
-     ["stęp","kłus","galop"],
-     ["rytm"],
-     ["inochód","cwał"]),
-    ("Na czym polega półparada?",
-     ["dosiad łydka ręka","krótka pomoc","zebranie uwagi"],
-     ["równowaga"],
-     ["mocne szarpnięcie wodzą"]),
-    ("Jak utrzymać równowagę w kłusie anglezowanym?",
-     ["rytm","biodra podążają","tułów stabilny","łydka spokojna"],
-     ["na zewnętrzną wstajemy"],
-     ["patrzeć w dół","wstać jak najwyżej"]),
-    ("Jakie są zasady mijania na ujeżdżalni?",
-      ["lewy do lewego","szybszy ustępuje wolniejszemu","zachować odstęp"],
-      ["zapowiadanie zmian"],
-      ["brak zasad"]),
-    ("Jak sygnalizować zatrzymanie na placu?",
-     ["głos lub sygnał","zejść z toru","powoli zatrzymać"],
-     ["kontakt wzrokowy"],
-     ["nagłe stanie na ścianie"]),
-    ("Co oznacza impuls w jeździe?",
-     ["energia z zadu do przodu","równowaga","rytm"],
-     ["aktywność zadnich"],
-     ["sama szybkość"]),
-    ("Co robi zewnętrzna wodza na łuku?",
-     ["stabilizuje łopatkę","reguluje tempo","promień skrętu"],
-     ["kontrola kontaktu"],
-     ["zagina szyję do wewnątrz"]),
-    ("Jak przygotować się do skoku małej przeszkody?",
-     ["ustabilizować tempo","linia prosta","półsiad","ręka elastyczna"],
-     ["wzrok do przodu"],
-     ["przyspieszyć mocno","patrzeć w drąg"]),
-    ("Jaki rodzaj paszy ograniczyć w dni wolne od pracy?",
-     ["pasza treściwa"],
-     ["siano do woli","kaloryczność"],
-     ["ograniczyć wodę"]),
-    ("Dlaczego stały dostęp do paszy objętościowej jest ważny?",
-     ["stabilizuje przewód pokarmowy","mniejsze ryzyko wrzodów"],
-     ["produkcja śliny"],
-     ["bo koń mniej pije"]),
-    ("Kiedy nie podawać treściwej po pracy?",
-     ["gdy tętno i oddech nie wróciły do normy","najpierw woda małe porcje"],
-     ["odpoczynek"],
-     ["zawsze można od razu"]),
-    ("Podaj orientacyjne parametry spoczynkowe konia.",
-     ["tętno 28–44","oddechy 8–16","temperatura 37,2–38,3"],
-     ["widełki"],
-     ["tętno 70–90","temp 39–40"]),
-    ("Wymień objawy kolki wymagające reakcji.",
-     ["niepokój","turlanie","brak odchodów","pocenie","brak apetytu"],
-     ["patrzenie na boki"],
-     ["ziewanie po poidole"]),
-    ("Objawy ochwatu to…",
-     ["gorące kopyta","bolesność","postawa odciążająca przód"],
-     ["sztywność"],
-     ["zimne kopyta i brak bólu"]),
-    ("Co zrobić przy podejrzeniu udaru cieplnego?",
-     ["schłodzić","cień","małe porcje wody","monitorować parametry"],
-     ["zdjąć sprzęt"],
-     ["wystawić na słońce"]),
-    ("Jak zabezpieczyć apteczkę stajenną?",
-     ["oznaczona","uzupełniana","dostępna","poza zasięgiem dzieci"],
-     ["lista kontaktów"],
-     ["bez opisu w siodlarni"]),
-]
+  // ---- narzędzia oceny ----
+  const normalize = (s) => (s||"")
+    .toLowerCase()
+    .normalize("NFD").replace(/\p{Diacritic}/gu,"")
+    .replace(/[^a-z0-9\s-]/g," ")
+    .replace(/\s+/g," ")
+    .trim();
 
-variants = [
-    "W kilku zdaniach: {}",
-    "Krótko i rzeczowo: {}",
-    "Instrukcja dla początkującego: {}",
-    "Wymień główne zasady: {}",
-    "Co jest kluczowe? {}",
-    "{}",
-]
+  function containsPhrase(text, phrase){
+    const t = " " + normalize(text) + " ";
+    const parts = normalize(phrase).split(" ").filter(Boolean);
+    return parts.every(p => t.includes(" "+p+" "));
+  }
 
-def model_from_require(req):
-    if "pasza treściwa" in req:
-        return "Ograniczamy paszę treściwą; siano zwykle do woli."
-    if "od piętki do palca" in req:
-        return "Czyścimy od piętki do palca, rowkami przy strzałce; strzałki nie skrobiemy."
-    if "1–2 fałdki" in req:
-        return "Ustawiamy wędzidło tak, by były 1–2 delikatne fałdki."
-    if "1–2 palce luzu" in req:
-        return "Między nachrapnikiem a kością nosa powinny mieścić się 1–2 palce."
-    if "po osiodłaniu" in req:
-        return "Sprawdzamy popręg po osiodłaniu i po wsiadaniu; stabilnie, bez utrudniania oddechu."
-    if "stęp" in req and "kłus" in req and "galop" in req:
-        return "Podstawowe chody: stęp, kłus, galop."
-    if "pętle w dłoni" in req:
-        return "Prowadzimy po lewej przy łopatce; uwiąz w pętlach, nie owijamy wokół ręki."
-    if "stały punkt" in req and "szybki węzeł" in req:
-        return "Przywiązujemy do stałego punktu szybkim węzłem; nigdy do wędzidła."
-    return "Kluczowe elementy: " + ", ".join(req) + "."
+  function scoreByRubric(answer, rubric){
+    const req = rubric.require || [];
+    const good = rubric.good || [];
+    const bad = rubric.forbid || [];
 
-questions = []
-qid = 1
-while qid <= 300:
-    for base_q, req, good, forbid in base_items:
-        for v in variants:
-            if qid > 300: break
-            q_text = v.format(base_q)
-            questions.append({
-                "id": qid,
-                "question": q_text,
-                "rubric": {"require": req, "good": good, "forbid": forbid},
-                "modelAnswer": model_from_require(req)
-            })
-            qid += 1
-        if qid > 300: break
+    const hitsReq = req.filter(ph => containsPhrase(answer, ph));
+    const hitsGood = good.filter(ph => containsPhrase(answer, ph));
+    const hitsBad = bad.filter(ph => containsPhrase(answer, ph));
 
-path = "/mnt/data/boj-questions.json"
-with open(path, "w", encoding="utf-8") as f:
-    json.dump(questions, f, ensure_ascii=False, indent=2)
+    const base = (req.length === 0 || hitsReq.length === req.length) ? 1 : 0;
+    let bonus = 0;
+    if (hitsGood.length) bonus += Math.min(0.5, hitsGood.length * 0.25);
+    if (hitsBad.length) bonus -= Math.min(0.5, hitsBad.length * 0.25);
+    const total = Math.max(0, Math.min(1, base + bonus));
 
-path
+    return { total, hitsReq, hitsGood, hitsBad };
+  }
+
+  function shuffle(a){ const b=a.slice(); for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [b[i],b[j]]=[b[j],b[i]]} return b }
+
+  // ---- logika quizu ----
+  let ui, bank=[], picked=[], idx=0, score=0;
+
+  function renderQuestion(){
+    const q = picked[idx];
+    ui.q.textContent = q.question;
+    ui.ans.value = "";
+    ui.hint.style.display = "none";
+    ui.fb.style.display = "none";
+    ui.fb.innerHTML = "";
+    ui.next.disabled = true;
+    ui.step.textContent = `${idx+1}/${picked.length}`;
+    ui.bar.style.width = `${Math.round((idx/picked.length)*100)}%`;
+  }
+
+  function showFeedback(res, modelAnswer){
+    ui.fb.style.display = "block";
+    ui.fb.innerHTML = `
+      <div><strong>Ocena:</strong> ${Math.round(res.total*100)}%</div>
+      ${res.hitsReq.length ? `<div style="margin-top:6px">${res.hitsReq.map(x=>`<span class="tag good">✔ wymagane: ${x}</span>`).join(" ")}</div>` : `<div class="small" style="margin-top:6px">Brak wszystkich elementów wymaganych.</div>`}
+      ${res.hitsGood.length ? `<div style="margin-top:6px">${res.hitsGood.map(x=>`<span class="tag good">＋ dobrze: ${x}</span>`).join(" ")}</div>` : ""}
+      ${res.hitsBad.length ? `<div style="margin-top:6px">${res.hitsBad.map(x=>`<span class="tag miss">✖ niepożądane: ${x}</span>`).join(" ")}</div>` : ""}
+      ${CONFIG.showModelAnswer && modelAnswer ? `<div class="small" style="margin-top:8px"><strong>Wzorzec:</strong> ${modelAnswer}</div>` : ""}
+    `;
+    ui.next.disabled = false;
+  }
+
+  function renderResult(){
+    ui.root.innerHTML = `
+      <div class="quiz-app">
+        <div class="quiz-card quiz-result">
+          <h2>Koniec quizu!</h2>
+          <p class="score">${score} / ${picked.length}</p>
+          <div class="quiz-actions" style="justify-content:center">
+            <button class="btn btn-primary" id="retry">Zagraj ponownie</button>
+            <a href="index.html#exam" class="btn">Wróć na stronę główną</a>
+          </div>
+        </div>
+      </div>
+    `;
+    ui.root.querySelector("#retry").addEventListener("click", ()=>location.reload());
+  }
+
+  async function init(){
+    ui = mount();
+    let res;
+    try {
+      res = await fetch(CONFIG.questionsUrl, { cache: "no-store" });
+      if(!res.ok) throw new Error("Nie udało się pobrać banku pytań.");
+      bank = await res.json();
+    } catch(e){
+      (document.getElementById("exam-widget")||document.body).innerHTML =
+        `<p style="color:#b00020">Błąd: ${e.message}</p>`;
+      return;
+    }
+
+    picked = CONFIG.shuffle ? shuffle(bank).slice(0, CONFIG.pick) : bank.slice(0, CONFIG.pick);
+    idx = 0; score = 0;
+
+    ui.check.addEventListener("click", () => {
+      const q = picked[idx];
+      const user = ui.ans.value.trim();
+      if (!user){ ui.hint.style.display = "block"; return; }
+      const res = scoreByRubric(user, q.rubric || {});
+      if (res.total >= CONFIG.PASS_THRESHOLD) score += 1;
+      showFeedback(res, q.modelAnswer || "");
+    });
+
+    ui.skip.addEventListener("click", () => {
+      showFeedback({ total: 0, hitsReq:[], hitsGood:[], hitsBad:[] }, q.modelAnswer || "");
+    });
+
+    ui.next.addEventListener("click", () => {
+      idx += 1;
+      if (idx < picked.length) renderQuestion();
+      else renderResult();
+    });
+
+    renderQuestion();
+  }
+
+  init();
+})();
+

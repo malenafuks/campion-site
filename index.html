@@ -3,40 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Egzamin BOJ — quiz</title>
+  <title>Campion — landing</title>
+
+  <!-- Czcionka jak wcześniej -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/exam.css" />
-</head>
-<body>
-  <main id="quiz">
-    <div class="panel">
-      <header class="panel-head">
-        <h1>Egzamin BOJ — quiz</h1>
-        <div class="progress"><div class="bar" id="progressBar" style="width:0%"></div></div>
-      </header>
 
-      <section id="card" class="card" aria-live="polite">
-        <!-- pytanie + odpowiedzi renderuje JS -->
-      </section>
+  <!-- Jeśli masz własny plik stylów, zostawiamy -->
+  <link rel="stylesheet" href="css/styles.css" />
 
-      <footer class="panel-foot">
-        <button id="nextBtn" class="btn btn-primary" disabled>Dalej</button>
-      </footer>
-    </div>
-  </main>
-
-  <template id="resultTpl">
-    <div class="result">
-      <h2>Wynik</h2>
-      <p>Zdobyłeś/aś <strong id="scoreTxt"></strong> punktów.</p>
-      <button id="retryBtn" class="btn">Rozpocznij ponownie</button>
-      <a href="index.html#exam" class="btn btn-ghost">Wróć na stronę główną</a>
-    </div>
-  </template>
-
-  <script>window.BOJ_QUESTIONS_URL = "exam/boj-questions.json";</script>
-  <script src="js/exam.js" defer></script>
-</body>
-</html>
+  <!-- Minimalne style, żeby od razu wyglądało OK (nie kolidują z Twoimi) -->
+  <style>
+    :root{
+      --bg:#fbf9f4; --panel:#ffffff; --text:

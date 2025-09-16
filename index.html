@@ -3,17 +3,100 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Campion — landing</title>
+  <title>Campion — przygotowanie do egzaminu BOJ</title>
 
-  <!-- Czcionka jak wcześniej -->
+  <!-- Czcionka -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 
-  <!-- Jeśli masz własny plik stylów, zostawiamy -->
+  <!-- Twoje style globalne -->
   <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
 
-  <!-- Minimalne style, żeby od razu wyglądało OK (nie kolidują z Twoimi) -->
-  <style>
-    :root{
-      --bg:#fbf9f4; --panel:#ffffff; --text:
+  <!-- HERO (używa .hero, .bar, .brand, .hero-inner, .kicker, .title, .subtitle, .cta-row, .btn) -->
+  <header class="hero" id="top">
+    <div class="bar">
+      <div class="brand">
+        <!-- Jeśli masz logo w assets/, odkomentuj i podaj nazwę pliku -->
+        <!-- <img src="assets/logo.png" alt="Campion" /> -->
+        <div class="name">Campion</div>
+      </div>
+      <nav class="cta-row" style="margin-top:0">
+        <a href="#contact" class="btn secondary">Umów konsultację</a>
+        <a href="#offer" class="btn secondary">Zobacz ofertę</a>
+        <a href="#exam" class="btn">Sprawdź swoją wiedzę — BOJ</a>
+      </nav>
+    </div>
+
+    <div class="hero-inner">
+      <span class="kicker">Przygotowanie do egzaminu BOJ</span>
+      <h1 class="title">Zbuduj pewność i <span class="accent">zdamy BOJ</span></h1>
+      <p class="subtitle">Krótkie szkolenia, praktyczne materiały i test „otwarta odpowiedź” — 10 losowych pytań z puli 300. Sprawdź się teraz.</p>
+      <div class="cta-row">
+        <a href="#exam" class="btn">Rozpocznij test BOJ</a>
+        <a href="#offer" class="btn secondary">Zobacz ofertę</a>
+      </div>
+      <div class="divider"></div>
+    </div>
+  </header>
+
+  <!-- OFERTA (używa .section-title, .lead, .cards, .card) -->
+  <section id="offer">
+    <h2 class="section-title">Oferta</h2>
+    <p class="lead">Zajęcia indywidualne i grupowe, przygotowanie teoretyczne i praktyczne do egzaminu BOJ. Poniżej przykładowe bloki — możesz zamienić treść na swoją.</p>
+
+    <div class="cards" style="margin-top:18px">
+      <article class="card">
+        <h3>Szkolenie praktyczne</h3>
+        <p class="muted">Indywidualna praca z koniem: dosiad, praca z ziemi, zasady BHP, przygotowanie sprzętu. </p>
+      </article>
+      <article class="card">
+        <h3>Teoria BOJ</h3>
+        <p class="muted">Skondensowane materiały: żywienie, zdrowie, sprzęt, zasady na placu, pierwsza pomoc.</p>
+      </article>
+      <article class="card">
+        <h3>Konsultacje</h3>
+        <p class="muted">Plan nauki pod egzamin, przegląd postępów, korekta błędów i wskazówki trenera.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- EGZAMIN (osadzenie w iframe) -->
+  <section id="exam">
+    <h2 class="section-title">Egzamin BOJ — szybki test (10 losowych pytań z puli 300)</h2>
+    <div class="card">
+      <iframe
+        src="exam-boj.html"
+        title="Egzamin BOJ — odpowiedzi własne"
+        loading="lazy"
+        sandbox="allow-scripts allow-same-origin"
+        style="width:100%;height:720px;border:none;border-radius:16px;box-shadow:var(--shadow);background:#fff"
+      ></iframe>
+      <p class="muted" style="margin:10px 6px 0 6px">Jeśli iframe się nie ładuje, <a href="exam-boj.html">otwórz test w nowej karcie</a>.</p>
+    </div>
+  </section>
+
+  <!-- KONTAKT (używa .contact, .panel) -->
+  <section id="contact">
+    <h2 class="section-title">Kontakt</h2>
+    <div class="contact">
+      <div class="panel">
+        <p><strong>Napisz:</strong> <a href="mailto:kontakt@twojadomena.pl">kontakt@twojadomena.pl</a><br/>
+        <strong>Instagram:</strong> <a href="#">@campion</a></p>
+        <p class="muted">Możesz też umówić konsultację — kliknij w przycisk u góry.</p>
+      </div>
+      <div class="panel">
+        <p class="muted">Tu możesz dodać mapę, formularz lub Calendly (patrz klasy w Twoim CSS: <code>.calendly-section</code>, <code>.calendly-iframe</code>).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STOPKA (używa style'u footer z Twojego CSS) -->
+  <footer>
+    © Campion — przygotowanie do BOJ
+  </footer>
+
+</body>
+</html>

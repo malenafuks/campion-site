@@ -1,125 +1,96 @@
-(function () {
-  const url = "exam/boj-questions.json";
+(function(){
+  const CONFIG = {
+    questionsUrl: "exam/boj-questions.json", // <-- NIE ZMIENIAJ NAZWY; zgodnie z Twoją strukturą
+    pick: 10,                // ile pytań losujemy
+    shuffle: true,           // tasuj pulę
+    PASS_THRESHOLD: 0.7,     // próg zaliczenia pojedynczego pytania
+    showModelAnswer: true    // pokazuj wzorzec po sprawdzeniu
+  };
 
-  /** Fisher–Yates shuffle */
-  function shuffle(arr) {
-    const a = arr.slice();
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
-
-  async function loadQuestions() {
-    const res = await fetch(url, { cache: "no-store" });
-    if (!res.ok) throw new Error("Nie udało się pobrać pytań.");
-    const data = await res.json();
-    return data.map(q => ({ ...q, answers: shuffle(q.answers) }));
-  }
-
-  const quizApp = document.createElement("div");
-  quizApp.className = "quiz-app";
-  document.body.appendChild(quizApp);
-
-  let questions = [];
-  let idx = 0;
-  let score = 0;
-  let selected = null;
-
-  function renderQuestion() {
-    const q = questions[idx];
-
-    quizApp.innerHTML = `
-      <div class="quiz-card">
-        <div class="quiz-progress">
-          <div class="bar"><span style="width:${(idx / questions.length) * 100}%"></span></div>
-          <div class="step">${idx + 1}/${questions.length}</div>
-        </div>
-        <h2 class="quiz-question">${q.question}</h2>
-        <ul class="quiz-answers">
-          ${q.answers
-            .map((a, i) => `
-              <li class="quiz-answer" data-idx="${i}">
-                ${a.text}
-              </li>`).join("")}
-        </ul>
-        <div class="quiz-actions">
-          <span class="quiz-hint" style="display:none;">Zaznacz odpowiedź, aby przejść dalej</span>
-          <button class="btn btn-primary" id="nextBtn">Dalej</button>
+  // ---- montaż UI ----
+  function mount() {
+    const root = document.getElementById("exam-widget") || document.body;
+    root.innerHTML = `
+      <div class="quiz-app">
+        <div class="quiz-card">
+          <div class="quiz-progress">
+            <div class="bar"><span id="bar" style="width:0%"></span></div>
+            <div class="step" id="step">0/0</div>
+          </div>
+          <h2 class="quiz-question" id="q"></h2>
+          <textarea id="ans" class="ta" placeholder="Twoja odpowiedź..." rows="6" style="width:100%;padding:12px;border:1px solid rgba(0,0,0,.12);border-radius:12px;background:#fff"></textarea>
+          <div class="quiz-hint" id="hint" style="display:none;margin-top:8px">Napisz odpowiedź i kliknij „Sprawdź”.</div>
+          <div class="quiz-actions">
+            <button class="btn" id="skip">Pomiń</button>
+            <button class="btn btn-primary" id="check">Sprawdź</button>
+            <button class="btn" id="next" disabled>Dalej</button>
+          </div>
+          <div class="feedback" id="fb" style="display:none"></div>
         </div>
       </div>
     `;
-
-    const answersEls = quizApp.querySelectorAll(".quiz-answer");
-    const nextBtn = quizApp.querySelector("#nextBtn");
-    const hint = quizApp.querySelector(".quiz-hint");
-
-    answersEls.forEach((el) => {
-      el.addEventListener("click", () => {
-        answersEls.forEach(e => e.classList.remove("selected"));
-        el.classList.add("selected");
-        selected = Number(el.dataset.idx);
-        hint.style.display = "none";
-      });
-    });
-
-    nextBtn.addEventListener("click", () => {
-      if (selected === null) {
-        hint.style.display = "inline-block";
-        return;
-      }
-
-      // Sprawdź poprawność
-      const qData = questions[idx];
-      answersEls.forEach((el, i) => {
-        if (qData.answers[i].correct) el.classList.add("correct");
-        else if (i === selected) el.classList.add("wrong");
-      });
-
-      if (qData.answers[selected].correct) score++;
-
-      nextBtn.disabled = true;
-
-      setTimeout(() => {
-        idx++;
-        if (idx < questions.length) {
-          selected = null;
-          renderQuestion();
-        } else {
-          renderResult();
-        }
-      }, 900);
-    });
+    return {
+      root,
+      bar: root.querySelector("#bar"),
+      step: root.querySelector("#step"),
+      q: root.querySelector("#q"),
+      ans: root.querySelector("#ans"),
+      hint: root.querySelector("#hint"),
+      skip: root.querySelector("#skip"),
+      check: root.querySelector("#check"),
+      next: root.querySelector("#next"),
+      fb: root.querySelector("#fb")
+    };
   }
 
-  function renderResult() {
-    quizApp.innerHTML = `
-      <div class="quiz-card quiz-result">
-        <h2>Koniec quizu!</h2>
-        <p class="score">${score} / ${questions.length}</p>
-        <div class="quiz-actions">
-          <button class="btn btn-primary" id="retryBtn">Zagraj ponownie</button>
-          <a href="index.html#exam" class="btn">Wróć na stronę główną</a>
-        </div>
-      </div>
-    `;
+  // ---- narzędzia oceny ----
+  const normalize = (s) => (s||"")
+    .toLowerCase()
+    .normalize("NFD").replace(/\p{Diacritic}/gu,"")
+    .replace(/[^a-z0-9\s-]/g," ")
+    .replace(/\s+/g," ")
+    .trim();
 
-    quizApp.querySelector("#retryBtn").addEventListener("click", () => {
-      idx = 0;
-      score = 0;
-      selected = null;
-      questions = questions.map(q => ({ ...q, answers: shuffle(q.answers) }));
-      renderQuestion();
-    });
+  function containsPhrase(text, phrase){
+    const t = " " + normalize(text) + " ";
+    const parts = normalize(phrase).split(" ").filter(Boolean);
+    return parts.every(p => t.includes(" "+p+" "));
   }
 
-  loadQuestions()
-    .then((qs) => {
-      questions = qs;
-      renderQuestion();
-    })
-    .catch((err) => {
-      quizApp.innerHTML = `<p style="color:#b00020">Błąd ładowania quizu: ${err.message}</p>`;
-    });
-})();
+  function scoreByRubric(answer, rubric){
+    const req = rubric.require || [];
+    const good = rubric.good || [];
+    const bad = rubric.forbid || [];
+
+    const hitsReq = req.filter(ph => containsPhrase(answer, ph));
+    const hitsGood = good.filter(ph => containsPhrase(answer, ph));
+    const hitsBad = bad.filter(ph => containsPhrase(answer, ph));
+
+    const base = (req.length === 0 || hitsReq.length === req.length) ? 1 : 0;
+    let bonus = 0;
+    if (hitsGood.length) bonus += Math.min(0.5, hitsGood.length * 0.25);
+    if (hitsBad.length) bonus -= Math.min(0.5, hitsBad.length * 0.25);
+    const total = Math.max(0, Math.min(1, base + bonus));
+
+    return { total, hitsReq, hitsGood, hitsBad };
+  }
+
+  function shuffle(a){ const b=a.slice(); for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [b[i],b[j]]=[b[j],b[i]]} return b }
+
+  // ---- logika quizu ----
+  let ui, bank=[], picked=[], idx=0, score=0;
+
+  function renderQuestion(){
+    const q = picked[idx];
+    ui.q.textContent = q.question;
+    ui.ans.value = "";
+    ui.hint.style.display = "none";
+    ui.fb.style.display = "none";
+    ui.fb.innerHTML = "";
+    ui.next.disabled = true;
+    ui.step.textContent = `${idx+1}/${picked.length}`;
+    ui.bar.style.width = `${Math.round((idx/picked.length)*100)}%`;
+  }
+
+  function showFeedback(res, modelAnswer){
+    ui.fb.style.display =
